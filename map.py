@@ -18,7 +18,7 @@ for earthquake in earthquakes:
         color = 'orange'
     else:
         color = 'green'
-    fg.add_child(folium.CircleMarker(location=[earthquake['geometry']['coordinates'][1],earthquake['geometry']['coordinates'][0]], radius=5, popup="Date: %s \n Place: %s \n Magnitude: %s" %(date, place, mag), fill_color=color, color= 'grey', fill=True, fill_opacity=0.7))
+    fg.add_child(folium.CircleMarker(location=[earthquake['geometry']['coordinates'][1],earthquake['geometry']['coordinates'][0]], radius=10, popup="Date: %s \n Place: %s \n Magnitude: %s" %(date, place, mag), fill_color=color, color= 'grey', fill=True, fill_opacity=0.7))
 
 # fg.add_child(folium.GeoJson(data=(open('world.json', 'r', encoding='utf-8-sig').read())))
 
