@@ -1,0 +1,4160 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = true; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_56da1393adec48c88c8b0fe0c562cce2 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_56da1393adec48c88c8b0fe0c562cce2" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_56da1393adec48c88c8b0fe0c562cce2 = L.map(
+                                  'map_56da1393adec48c88c8b0fe0c562cce2',
+                                  {center: [37.5,-73],
+                                  zoom: 5,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ca9ca348971e409795a73ef4fb752a75 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_56da1393adec48c88c8b0fe0c562cce2);
+        
+    
+            var feature_group_1f02883651d64d61846400f8f09a03fc = L.featureGroup(
+                ).addTo(map_56da1393adec48c88c8b0fe0c562cce2);
+        
+    
+            var circle_marker_15c4241f4c8b4c8f98778b3590dbb722 = L.circleMarker(
+                [46.9007,-70.7725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_708146d18cc342c38a8ddab34771ecc8 = L.popup({maxWidth: '300'});
+
+            
+                var html_99036557c0b34dc7bad00e0cf7009099 = $('<div id="html_99036557c0b34dc7bad00e0cf7009099" style="width: 100.0%; height: 100.0%;">Date: 2018-01-04 10:42:27   Place: 18km WSW of Montmagny, Canada   Magnitude: 3.4</div>')[0];
+                popup_708146d18cc342c38a8ddab34771ecc8.setContent(html_99036557c0b34dc7bad00e0cf7009099);
+            
+
+            circle_marker_15c4241f4c8b4c8f98778b3590dbb722.bindPopup(popup_708146d18cc342c38a8ddab34771ecc8);
+
+            
+        
+    
+            var circle_marker_554c50ae20ac44f3aed7d3394d7b4790 = L.circleMarker(
+                [46.6803,-75.6085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_15a2068eb5454787ad7ddc283fe4ce71 = L.popup({maxWidth: '300'});
+
+            
+                var html_1356515b4c434548a5111f48a93246b0 = $('<div id="html_1356515b4c434548a5111f48a93246b0" style="width: 100.0%; height: 100.0%;">Date: 2018-04-17 18:59:24   Place: 12km W of Ferme-Neuve, Canada   Magnitude: 3.4</div>')[0];
+                popup_15a2068eb5454787ad7ddc283fe4ce71.setContent(html_1356515b4c434548a5111f48a93246b0);
+            
+
+            circle_marker_554c50ae20ac44f3aed7d3394d7b4790.bindPopup(popup_15a2068eb5454787ad7ddc283fe4ce71);
+
+            
+        
+    
+            var circle_marker_01b62ef475e24bccb3eb193ef65f8b74 = L.circleMarker(
+                [46.3836,-75.0633],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b1e9fcddb1484cfd87d72eb8059c6671 = L.popup({maxWidth: '300'});
+
+            
+                var html_f13e6b77d1354bb89f1557f9df395808 = $('<div id="html_f13e6b77d1354bb89f1557f9df395808" style="width: 100.0%; height: 100.0%;">Date: 2018-01-21 01:08:55   Place: 15km WSW of Riviere-Rouge, Canada   Magnitude: 3</div>')[0];
+                popup_b1e9fcddb1484cfd87d72eb8059c6671.setContent(html_f13e6b77d1354bb89f1557f9df395808);
+            
+
+            circle_marker_01b62ef475e24bccb3eb193ef65f8b74.bindPopup(popup_b1e9fcddb1484cfd87d72eb8059c6671);
+
+            
+        
+    
+            var circle_marker_f319cd9385b04364ac98cffcd7ebbe71 = L.circleMarker(
+                [46.3973,-75.3136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_2b743de1d7654f1b9af5cc965e25fe06 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ba88282a547487da03d77abc5e49a98 = $('<div id="html_3ba88282a547487da03d77abc5e49a98" style="width: 100.0%; height: 100.0%;">Date: 2018-01-29 17:04:06   Place: 22km SE of Mont-Laurier, Canada   Magnitude: 3</div>')[0];
+                popup_2b743de1d7654f1b9af5cc965e25fe06.setContent(html_3ba88282a547487da03d77abc5e49a98);
+            
+
+            circle_marker_f319cd9385b04364ac98cffcd7ebbe71.bindPopup(popup_2b743de1d7654f1b9af5cc965e25fe06);
+
+            
+        
+    
+            var circle_marker_c9c1793aaf4e41b586c2acce91b9d3ca = L.circleMarker(
+                [43.7347,-78.949],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8251402f314e48aa8934a5694b462f8a = L.popup({maxWidth: '300'});
+
+            
+                var html_338b57516891413c969af74ab66946ef = $('<div id="html_338b57516891413c969af74ab66946ef" style="width: 100.0%; height: 100.0%;">Date: 2018-05-08 17:27:39   Place: 14km SSE of Ajax, Canada   Magnitude: 3</div>')[0];
+                popup_8251402f314e48aa8934a5694b462f8a.setContent(html_338b57516891413c969af74ab66946ef);
+            
+
+            circle_marker_c9c1793aaf4e41b586c2acce91b9d3ca.bindPopup(popup_8251402f314e48aa8934a5694b462f8a);
+
+            
+        
+    
+            var circle_marker_65367309e97f4add9135b671f49c8ffc = L.circleMarker(
+                [41.4507,-63.462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_01d9ae5ab3674d649b31949939dec6be = L.popup({maxWidth: '300'});
+
+            
+                var html_23e079b8d5f14826b91efff24fdc4328 = $('<div id="html_23e079b8d5f14826b91efff24fdc4328" style="width: 100.0%; height: 100.0%;">Date: 2018-06-01 16:52:18   Place: 298km SSE of Shelburne, Canada   Magnitude: 3</div>')[0];
+                popup_01d9ae5ab3674d649b31949939dec6be.setContent(html_23e079b8d5f14826b91efff24fdc4328);
+            
+
+            circle_marker_65367309e97f4add9135b671f49c8ffc.bindPopup(popup_01d9ae5ab3674d649b31949939dec6be);
+
+            
+        
+    
+            var circle_marker_f5a079f5e9e4436cb2440e1c32f6d3b9 = L.circleMarker(
+                [46.9007,-70.773],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_a960322269664b29bd7a315420dba2d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff70083190f549c5ae83b52cf129644c = $('<div id="html_ff70083190f549c5ae83b52cf129644c" style="width: 100.0%; height: 100.0%;">Date: 2018-01-02 21:23:47   Place: 18km WSW of Montmagny, Canada   Magnitude: 2.9</div>')[0];
+                popup_a960322269664b29bd7a315420dba2d8.setContent(html_ff70083190f549c5ae83b52cf129644c);
+            
+
+            circle_marker_f5a079f5e9e4436cb2440e1c32f6d3b9.bindPopup(popup_a960322269664b29bd7a315420dba2d8);
+
+            
+        
+    
+            var circle_marker_2f1422267143454b952c88287c464969 = L.circleMarker(
+                [45.341,-66.235],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_6ac1f80ae6224d45be42e594313e623f = L.popup({maxWidth: '300'});
+
+            
+                var html_38c7ae89ec074edc846e81fbad837962 = $('<div id="html_38c7ae89ec074edc846e81fbad837962" style="width: 100.0%; height: 100.0%;">Date: 2018-03-14 18:19:48   Place: 15km WNW of Saint John, Canada   Magnitude: 2.9</div>')[0];
+                popup_6ac1f80ae6224d45be42e594313e623f.setContent(html_38c7ae89ec074edc846e81fbad837962);
+            
+
+            circle_marker_2f1422267143454b952c88287c464969.bindPopup(popup_6ac1f80ae6224d45be42e594313e623f);
+
+            
+        
+    
+            var circle_marker_ac5f2a5df5124266b9841b83d10a77e4 = L.circleMarker(
+                [44.0913,-69.7528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_a7fdf4e2782144fb96f88c93a03d6689 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf4be6f0d22b4688a0021fe91c510812 = $('<div id="html_cf4be6f0d22b4688a0021fe91c510812" style="width: 100.0%; height: 100.0%;">Date: 2018-01-17 18:46:59   Place: 3km E of Richmond, Maine   Magnitude: 2.7</div>')[0];
+                popup_a7fdf4e2782144fb96f88c93a03d6689.setContent(html_cf4be6f0d22b4688a0021fe91c510812);
+            
+
+            circle_marker_ac5f2a5df5124266b9841b83d10a77e4.bindPopup(popup_a7fdf4e2782144fb96f88c93a03d6689);
+
+            
+        
+    
+            var circle_marker_10f2137634ef4dd2940b695b5a17cf84 = L.circleMarker(
+                [42.9206,-71.0106],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d01ac836633345709502d125b5b237c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3cd4330650a9497e979d8f631490d020 = $('<div id="html_3cd4330650a9497e979d8f631490d020" style="width: 100.0%; height: 100.0%;">Date: 2018-02-15 09:28:55   Place: 0km SE of East Kingston, New Hampshire   Magnitude: 2.7</div>')[0];
+                popup_d01ac836633345709502d125b5b237c0.setContent(html_3cd4330650a9497e979d8f631490d020);
+            
+
+            circle_marker_10f2137634ef4dd2940b695b5a17cf84.bindPopup(popup_d01ac836633345709502d125b5b237c0);
+
+            
+        
+    
+            var circle_marker_86df090a9b75449abf5f26dce14c45be = L.circleMarker(
+                [36.2665,-81.101],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b0e782221a4f4f9889290c571dae0c8b = L.popup({maxWidth: '300'});
+
+            
+                var html_a16a3494d8b649d09a3718ea55174298 = $('<div id="html_a16a3494d8b649d09a3718ea55174298" style="width: 100.0%; height: 100.0%;">Date: 2018-06-10 19:56:36   Place: 2km NE of Hays, North Carolina   Magnitude: 2.68</div>')[0];
+                popup_b0e782221a4f4f9889290c571dae0c8b.setContent(html_a16a3494d8b649d09a3718ea55174298);
+            
+
+            circle_marker_86df090a9b75449abf5f26dce14c45be.bindPopup(popup_b0e782221a4f4f9889290c571dae0c8b);
+
+            
+        
+    
+            var circle_marker_d1e9551ed1394c8b9e6378c51dfff596 = L.circleMarker(
+                [44.753,-74.5946667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_617f81fb7f864d93b7b038b66889ec99 = L.popup({maxWidth: '300'});
+
+            
+                var html_bfde3df839c04e6399a8543343af48e5 = $('<div id="html_bfde3df839c04e6399a8543343af48e5" style="width: 100.0%; height: 100.0%;">Date: 2018-03-21 00:59:13   Place: 25km WSW of Malone, New York   Magnitude: 2.67</div>')[0];
+                popup_617f81fb7f864d93b7b038b66889ec99.setContent(html_bfde3df839c04e6399a8543343af48e5);
+            
+
+            circle_marker_d1e9551ed1394c8b9e6378c51dfff596.bindPopup(popup_617f81fb7f864d93b7b038b66889ec99);
+
+            
+        
+    
+            var circle_marker_a10de7a25c9347a194fa51b9175cd74b = L.circleMarker(
+                [46.15,-65.84],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e38c03f7f5f340cf87707cdf2a3edd53 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5197e8f7f454f5fa20094646a913e2c = $('<div id="html_a5197e8f7f454f5fa20094646a913e2c" style="width: 100.0%; height: 100.0%;">Date: 2018-02-01 16:00:13   Place: 54km NNW of Sussex, Canada   Magnitude: 2.6</div>')[0];
+                popup_e38c03f7f5f340cf87707cdf2a3edd53.setContent(html_a5197e8f7f454f5fa20094646a913e2c);
+            
+
+            circle_marker_a10de7a25c9347a194fa51b9175cd74b.bindPopup(popup_e38c03f7f5f340cf87707cdf2a3edd53);
+
+            
+        
+    
+            var circle_marker_a8edc56f5ecb4ecb9fe504db2d41fd22 = L.circleMarker(
+                [46.1592,-65.8483],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_11738bba14894aa0abab46f9c09a370b = L.popup({maxWidth: '300'});
+
+            
+                var html_750ff7debf9448ef81989aa17d91a31b = $('<div id="html_750ff7debf9448ef81989aa17d91a31b" style="width: 100.0%; height: 100.0%;">Date: 2018-02-02 00:45:47   Place: 55km NNW of Sussex, Canada   Magnitude: 2.6</div>')[0];
+                popup_11738bba14894aa0abab46f9c09a370b.setContent(html_750ff7debf9448ef81989aa17d91a31b);
+            
+
+            circle_marker_a8edc56f5ecb4ecb9fe504db2d41fd22.bindPopup(popup_11738bba14894aa0abab46f9c09a370b);
+
+            
+        
+    
+            var circle_marker_82f2988fed624b3d86c3f62ffb2b8eb1 = L.circleMarker(
+                [41.478,-77.3828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_83e3af9cf7954b4ab892cf235085cee7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ac70e721f01402f9f89c94881b03ec6 = $('<div id="html_5ac70e721f01402f9f89c94881b03ec6" style="width: 100.0%; height: 100.0%;">Date: 2018-04-05 18:19:52   Place: 30km SSW of Wellsboro, Pennsylvania   Magnitude: 2.6</div>')[0];
+                popup_83e3af9cf7954b4ab892cf235085cee7.setContent(html_5ac70e721f01402f9f89c94881b03ec6);
+            
+
+            circle_marker_82f2988fed624b3d86c3f62ffb2b8eb1.bindPopup(popup_83e3af9cf7954b4ab892cf235085cee7);
+
+            
+        
+    
+            var circle_marker_fd493f7ed6be470ab95ea9c08a962287 = L.circleMarker(
+                [45.7806,-74.2374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_5b90093dae4e4a5694b5c57c2f1fb87e = L.popup({maxWidth: '300'});
+
+            
+                var html_31a2c808cc2d404b81c0ca38e2f12cfb = $('<div id="html_31a2c808cc2d404b81c0ca38e2f12cfb" style="width: 100.0%; height: 100.0%;">Date: 2018-06-20 12:15:09   Place: 12km SSW of Saint-Sauveur, Canada   Magnitude: 2.6</div>')[0];
+                popup_5b90093dae4e4a5694b5c57c2f1fb87e.setContent(html_31a2c808cc2d404b81c0ca38e2f12cfb);
+            
+
+            circle_marker_fd493f7ed6be470ab95ea9c08a962287.bindPopup(popup_5b90093dae4e4a5694b5c57c2f1fb87e);
+
+            
+        
+    
+            var circle_marker_1bd907aa6d024ae59b3eaad956d9771d = L.circleMarker(
+                [39.4368,-81.7153],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_35dfb800a88c4bafa835061efab03093 = L.popup({maxWidth: '300'});
+
+            
+                var html_9bd5512f56a2487b91eff1cfcc9e437e = $('<div id="html_9bd5512f56a2487b91eff1cfcc9e437e" style="width: 100.0%; height: 100.0%;">Date: 2018-01-26 03:20:48   Place: 13km SSW of Beverly, Ohio   Magnitude: 2.5</div>')[0];
+                popup_35dfb800a88c4bafa835061efab03093.setContent(html_9bd5512f56a2487b91eff1cfcc9e437e);
+            
+
+            circle_marker_1bd907aa6d024ae59b3eaad956d9771d.bindPopup(popup_35dfb800a88c4bafa835061efab03093);
+
+            
+        
+    
+            var circle_marker_0cf1307f6a5e4a0fbc3a6c4d4f9bf94a = L.circleMarker(
+                [45.5362,-67.3434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_94dcf9d3525444028b79b06da65520d7 = L.popup({maxWidth: '300'});
+
+            
+                var html_53e66593ba314403993fcf9f9d21e5b2 = $('<div id="html_53e66593ba314403993fcf9f9d21e5b2" style="width: 100.0%; height: 100.0%;">Date: 2018-03-28 23:11:16   Place: 38km N of Calais, Maine   Magnitude: 2.5</div>')[0];
+                popup_94dcf9d3525444028b79b06da65520d7.setContent(html_53e66593ba314403993fcf9f9d21e5b2);
+            
+
+            circle_marker_0cf1307f6a5e4a0fbc3a6c4d4f9bf94a.bindPopup(popup_94dcf9d3525444028b79b06da65520d7);
+
+            
+        
+    
+            var circle_marker_89fcafecd9f24c4380a278d355e35216 = L.circleMarker(
+                [47.4057,-70.1516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_df482164e97b4aa3b7c215a555e5025a = L.popup({maxWidth: '300'});
+
+            
+                var html_aa4c3d8bcf9642ba82212a3238992311 = $('<div id="html_aa4c3d8bcf9642ba82212a3238992311" style="width: 100.0%; height: 100.0%;">Date: 2018-04-24 13:36:42   Place: 9km NW of La Pocatiere, Canada   Magnitude: 2.5</div>')[0];
+                popup_df482164e97b4aa3b7c215a555e5025a.setContent(html_aa4c3d8bcf9642ba82212a3238992311);
+            
+
+            circle_marker_89fcafecd9f24c4380a278d355e35216.bindPopup(popup_df482164e97b4aa3b7c215a555e5025a);
+
+            
+        
+    
+            var circle_marker_eb6fa5aba5d74fb1947f6888927bd971 = L.circleMarker(
+                [32.955,-80.1666667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_435886917ea74f9ba3cdc89f3ceb6c70 = L.popup({maxWidth: '300'});
+
+            
+                var html_17c51b20b56c49b7bdad83edd166b103 = $('<div id="html_17c51b20b56c49b7bdad83edd166b103" style="width: 100.0%; height: 100.0%;">Date: 2018-03-02 04:24:48   Place: 4km S of Centerville, South Carolina   Magnitude: 2.41</div>')[0];
+                popup_435886917ea74f9ba3cdc89f3ceb6c70.setContent(html_17c51b20b56c49b7bdad83edd166b103);
+            
+
+            circle_marker_eb6fa5aba5d74fb1947f6888927bd971.bindPopup(popup_435886917ea74f9ba3cdc89f3ceb6c70);
+
+            
+        
+    
+            var circle_marker_0cfb4bffaca34c5fba596226ec7388a1 = L.circleMarker(
+                [47.3656,-70.352],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c6bc9696ff784978ae6b6bf04657b531 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c89380986f8413db1bf1dd9da927115 = $('<div id="html_7c89380986f8413db1bf1dd9da927115" style="width: 100.0%; height: 100.0%;">Date: 2018-02-08 21:03:58   Place: 13km SE of Baie-Saint-Paul, Canada   Magnitude: 2.4</div>')[0];
+                popup_c6bc9696ff784978ae6b6bf04657b531.setContent(html_7c89380986f8413db1bf1dd9da927115);
+            
+
+            circle_marker_0cfb4bffaca34c5fba596226ec7388a1.bindPopup(popup_c6bc9696ff784978ae6b6bf04657b531);
+
+            
+        
+    
+            var circle_marker_1f85afe9b8a04d33a0ac15bc76d28cde = L.circleMarker(
+                [43.2483,-71.6596],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_774580d89e784c16a1b6d0d4d9c531f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_3834896ef613474b85ed4b6008fff050 = $('<div id="html_3834896ef613474b85ed4b6008fff050" style="width: 100.0%; height: 100.0%;">Date: 2018-03-07 05:07:40   Place: 5km ENE of Contoocook, New Hampshire   Magnitude: 2.4</div>')[0];
+                popup_774580d89e784c16a1b6d0d4d9c531f4.setContent(html_3834896ef613474b85ed4b6008fff050);
+            
+
+            circle_marker_1f85afe9b8a04d33a0ac15bc76d28cde.bindPopup(popup_774580d89e784c16a1b6d0d4d9c531f4);
+
+            
+        
+    
+            var circle_marker_80d509a5bbeb4fbc9df889bf66a2523f = L.circleMarker(
+                [46.94,-66.18],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c6c887161e964a5f9b125949c2aeb3c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_7e6e4d07ec4a40c6b70414dbd13f1f76 = $('<div id="html_7e6e4d07ec4a40c6b70414dbd13f1f76" style="width: 100.0%; height: 100.0%;">Date: 2018-03-14 07:29:14   Place: 54km W of Miramichi, Canada   Magnitude: 2.4</div>')[0];
+                popup_c6c887161e964a5f9b125949c2aeb3c6.setContent(html_7e6e4d07ec4a40c6b70414dbd13f1f76);
+            
+
+            circle_marker_80d509a5bbeb4fbc9df889bf66a2523f.bindPopup(popup_c6c887161e964a5f9b125949c2aeb3c6);
+
+            
+        
+    
+            var circle_marker_6aa2b93d23924be28785e987ad9fbcf8 = L.circleMarker(
+                [36.1728333,-82.2995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_73ec5d262cd44410a74eeb9113d1bba2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8ed463b3a724dd7aaa15cfe06d81eaf = $('<div id="html_c8ed463b3a724dd7aaa15cfe06d81eaf" style="width: 100.0%; height: 100.0%;">Date: 2018-03-28 15:45:04   Place: 5km ESE of Unicoi, Tennessee   Magnitude: 2.35</div>')[0];
+                popup_73ec5d262cd44410a74eeb9113d1bba2.setContent(html_c8ed463b3a724dd7aaa15cfe06d81eaf);
+            
+
+            circle_marker_6aa2b93d23924be28785e987ad9fbcf8.bindPopup(popup_73ec5d262cd44410a74eeb9113d1bba2);
+
+            
+        
+    
+            var circle_marker_fd9be004342f4af3b8d8ed9fbe1133f7 = L.circleMarker(
+                [34.7255,-81.5501667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_64da29a8147a426393631fc6f07eeaa6 = L.popup({maxWidth: '300'});
+
+            
+                var html_673de7677b564c1397064f2b85d89bc9 = $('<div id="html_673de7677b564c1397064f2b85d89bc9" style="width: 100.0%; height: 100.0%;">Date: 2018-02-17 07:11:23   Place: 3km ENE of Monarch Mill, South Carolina   Magnitude: 2.31</div>')[0];
+                popup_64da29a8147a426393631fc6f07eeaa6.setContent(html_673de7677b564c1397064f2b85d89bc9);
+            
+
+            circle_marker_fd9be004342f4af3b8d8ed9fbe1133f7.bindPopup(popup_64da29a8147a426393631fc6f07eeaa6);
+
+            
+        
+    
+            var circle_marker_3ad71efd99ea4baebce3a1b7457d7ea0 = L.circleMarker(
+                [44.1384,-70.5895],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_9ca105757729443a9267e0b35dfe3ab0 = L.popup({maxWidth: '300'});
+
+            
+                var html_490e24c2e1af461f92aaff5e486dfc53 = $('<div id="html_490e24c2e1af461f92aaff5e486dfc53" style="width: 100.0%; height: 100.0%;">Date: 2018-01-24 01:53:58   Place: 7km ENE of Harrison, Maine   Magnitude: 2.3</div>')[0];
+                popup_9ca105757729443a9267e0b35dfe3ab0.setContent(html_490e24c2e1af461f92aaff5e486dfc53);
+            
+
+            circle_marker_3ad71efd99ea4baebce3a1b7457d7ea0.bindPopup(popup_9ca105757729443a9267e0b35dfe3ab0);
+
+            
+        
+    
+            var circle_marker_b42c4312d0aa49908400705ff5e99144 = L.circleMarker(
+                [46.35,-72.22],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_07820b6402bb40efb71e9864580c2517 = L.popup({maxWidth: '300'});
+
+            
+                var html_19c87c16e9404981b64d966d20cb8369 = $('<div id="html_19c87c16e9404981b64d966d20cb8369" style="width: 100.0%; height: 100.0%;">Date: 2018-01-27 06:59:06   Place: 16km E of Becancour, Canada   Magnitude: 2.3</div>')[0];
+                popup_07820b6402bb40efb71e9864580c2517.setContent(html_19c87c16e9404981b64d966d20cb8369);
+            
+
+            circle_marker_b42c4312d0aa49908400705ff5e99144.bindPopup(popup_07820b6402bb40efb71e9864580c2517);
+
+            
+        
+    
+            var circle_marker_f729cda9d3cd4a1092f3983af2bd896c = L.circleMarker(
+                [47.0772,-66.6029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_32cc9fe113d444cea22142ff681788e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f869b4eba9ee4495bd98e83ce189aa02 = $('<div id="html_f869b4eba9ee4495bd98e83ce189aa02" style="width: 100.0%; height: 100.0%;">Date: 2018-04-22 17:35:49   Place: 86km W of Miramichi, Canada   Magnitude: 2.3</div>')[0];
+                popup_32cc9fe113d444cea22142ff681788e9.setContent(html_f869b4eba9ee4495bd98e83ce189aa02);
+            
+
+            circle_marker_f729cda9d3cd4a1092f3983af2bd896c.bindPopup(popup_32cc9fe113d444cea22142ff681788e9);
+
+            
+        
+    
+            var circle_marker_10074701a6cf4173a926210197eae23b = L.circleMarker(
+                [45.26,-73.86],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_a0be0705ecb84e92b0b8a1e0cfd967e6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef35b2c367244d3f89574ce399d656ad = $('<div id="html_ef35b2c367244d3f89574ce399d656ad" style="width: 100.0%; height: 100.0%;">Date: 2018-06-27 04:56:55   Place: 4km WNW of Sainte-Martine, Canada   Magnitude: 2.3</div>')[0];
+                popup_a0be0705ecb84e92b0b8a1e0cfd967e6.setContent(html_ef35b2c367244d3f89574ce399d656ad);
+            
+
+            circle_marker_10074701a6cf4173a926210197eae23b.bindPopup(popup_a0be0705ecb84e92b0b8a1e0cfd967e6);
+
+            
+        
+    
+            var circle_marker_9b4ad1afd76649269a3c1ad4c9a8d94a = L.circleMarker(
+                [37.7451667,-78.1598333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_69590131599a4c4dae6cac7720535a17 = L.popup({maxWidth: '300'});
+
+            
+                var html_e0b54508a2be4782b0fcfa870e1047c0 = $('<div id="html_e0b54508a2be4782b0fcfa870e1047c0" style="width: 100.0%; height: 100.0%;">Date: 2018-02-27 21:10:36   Place: 10km E of Weber City, Virginia   Magnitude: 2.26</div>')[0];
+                popup_69590131599a4c4dae6cac7720535a17.setContent(html_e0b54508a2be4782b0fcfa870e1047c0);
+            
+
+            circle_marker_9b4ad1afd76649269a3c1ad4c9a8d94a.bindPopup(popup_69590131599a4c4dae6cac7720535a17);
+
+            
+        
+    
+            var circle_marker_2cc4d39a0cd24485be8c10cd0fb66ec3 = L.circleMarker(
+                [36.7735,-81.5753333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_3873b8955696472dad073935a24334aa = L.popup({maxWidth: '300'});
+
+            
+                var html_6c0623ae2bd34616858dd37dd0551e80 = $('<div id="html_6c0623ae2bd34616858dd37dd0551e80" style="width: 100.0%; height: 100.0%;">Date: 2018-06-03 02:11:59   Place: 1km SSE of Adwolf, Virginia   Magnitude: 2.24</div>')[0];
+                popup_3873b8955696472dad073935a24334aa.setContent(html_6c0623ae2bd34616858dd37dd0551e80);
+            
+
+            circle_marker_2cc4d39a0cd24485be8c10cd0fb66ec3.bindPopup(popup_3873b8955696472dad073935a24334aa);
+
+            
+        
+    
+            var circle_marker_beacc77b6ecb48dfb96ec4fbe297a130 = L.circleMarker(
+                [47.6218,-70.2142],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_84cc757edf2b42b3a1ecaf66aba373b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_182bb5ceb3d74706bb0442ef0e89fe9a = $('<div id="html_182bb5ceb3d74706bb0442ef0e89fe9a" style="width: 100.0%; height: 100.0%;">Date: 2018-01-19 20:16:32   Place: 5km SW of La Malbaie, Canada   Magnitude: 2.2</div>')[0];
+                popup_84cc757edf2b42b3a1ecaf66aba373b3.setContent(html_182bb5ceb3d74706bb0442ef0e89fe9a);
+            
+
+            circle_marker_beacc77b6ecb48dfb96ec4fbe297a130.bindPopup(popup_84cc757edf2b42b3a1ecaf66aba373b3);
+
+            
+        
+    
+            var circle_marker_eb1e8bc3651c4d5e9e76b2173d4869ac = L.circleMarker(
+                [47.4586,-70.1443],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d6bebd607665448d9778d30f10855850 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f1ca38615be4aadb263cdeec1ea060e = $('<div id="html_3f1ca38615be4aadb263cdeec1ea060e" style="width: 100.0%; height: 100.0%;">Date: 2018-01-23 22:28:51   Place: 13km NNW of La Pocatiere, Canada   Magnitude: 2.2</div>')[0];
+                popup_d6bebd607665448d9778d30f10855850.setContent(html_3f1ca38615be4aadb263cdeec1ea060e);
+            
+
+            circle_marker_eb1e8bc3651c4d5e9e76b2173d4869ac.bindPopup(popup_d6bebd607665448d9778d30f10855850);
+
+            
+        
+    
+            var circle_marker_cf43af28b45d43aea42a8fc7e01411a8 = L.circleMarker(
+                [46.14,-65.84],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_7aec6ece3fdb4a7a93a9a25f72561f5b = L.popup({maxWidth: '300'});
+
+            
+                var html_12b98b2f0f7943dfb1b9b85c5a6e75dd = $('<div id="html_12b98b2f0f7943dfb1b9b85c5a6e75dd" style="width: 100.0%; height: 100.0%;">Date: 2018-01-30 21:31:03   Place: 53km NNW of Sussex, Canada   Magnitude: 2.2</div>')[0];
+                popup_7aec6ece3fdb4a7a93a9a25f72561f5b.setContent(html_12b98b2f0f7943dfb1b9b85c5a6e75dd);
+            
+
+            circle_marker_cf43af28b45d43aea42a8fc7e01411a8.bindPopup(popup_7aec6ece3fdb4a7a93a9a25f72561f5b);
+
+            
+        
+    
+            var circle_marker_fb8f4318876f42818f2f39417a90c2c8 = L.circleMarker(
+                [46.14,-65.84],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d000bd9c7d2442569ee00e48897f223d = L.popup({maxWidth: '300'});
+
+            
+                var html_31387f458ad0484ea833726b7da2e3b1 = $('<div id="html_31387f458ad0484ea833726b7da2e3b1" style="width: 100.0%; height: 100.0%;">Date: 2018-02-01 17:46:41   Place: 53km NNW of Sussex, Canada   Magnitude: 2.2</div>')[0];
+                popup_d000bd9c7d2442569ee00e48897f223d.setContent(html_31387f458ad0484ea833726b7da2e3b1);
+            
+
+            circle_marker_fb8f4318876f42818f2f39417a90c2c8.bindPopup(popup_d000bd9c7d2442569ee00e48897f223d);
+
+            
+        
+    
+            var circle_marker_873b46ff526c4317bf39f10bbafd3eaf = L.circleMarker(
+                [45.5704,-67.327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_3e9f0bb9e70d4e0cb29bef2486a382df = L.popup({maxWidth: '300'});
+
+            
+                var html_d85f6613af1341a0ba6272825a59fc26 = $('<div id="html_d85f6613af1341a0ba6272825a59fc26" style="width: 100.0%; height: 100.0%;">Date: 2018-03-27 00:52:45   Place: 42km N of Calais, Maine   Magnitude: 2.2</div>')[0];
+                popup_3e9f0bb9e70d4e0cb29bef2486a382df.setContent(html_d85f6613af1341a0ba6272825a59fc26);
+            
+
+            circle_marker_873b46ff526c4317bf39f10bbafd3eaf.bindPopup(popup_3e9f0bb9e70d4e0cb29bef2486a382df);
+
+            
+        
+    
+            var circle_marker_29b04018cbbf40d8afef0cb3ab077c95 = L.circleMarker(
+                [41.362,-73.871],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_cd429aea76bc4f0598664df66b223176 = L.popup({maxWidth: '300'});
+
+            
+                var html_742f71c0e28146299fd79afacaee1768 = $('<div id="html_742f71c0e28146299fd79afacaee1768" style="width: 100.0%; height: 100.0%;">Date: 2018-02-07 06:14:00   Place: 5km NNW of Lake Mohegan, New York   Magnitude: 2.17</div>')[0];
+                popup_cd429aea76bc4f0598664df66b223176.setContent(html_742f71c0e28146299fd79afacaee1768);
+            
+
+            circle_marker_29b04018cbbf40d8afef0cb3ab077c95.bindPopup(popup_cd429aea76bc4f0598664df66b223176);
+
+            
+        
+    
+            var circle_marker_8e27fb03a5304ac7b55f1828d648bcd6 = L.circleMarker(
+                [34.9868333,-82.9148333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8afee14876d1441e95a14bfcf9b64713 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb7224655bec4d5490918ae1859031e5 = $('<div id="html_bb7224655bec4d5490918ae1859031e5" style="width: 100.0%; height: 100.0%;">Date: 2018-06-18 17:59:06   Place: 22km WNW of Pickens, South Carolina   Magnitude: 2.17</div>')[0];
+                popup_8afee14876d1441e95a14bfcf9b64713.setContent(html_bb7224655bec4d5490918ae1859031e5);
+            
+
+            circle_marker_8e27fb03a5304ac7b55f1828d648bcd6.bindPopup(popup_8afee14876d1441e95a14bfcf9b64713);
+
+            
+        
+    
+            var circle_marker_1c40789971ce4a3a9b21b8a28882c72e = L.circleMarker(
+                [45.54,-66.4],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_22d7f0da47b04a8080e511477ce071b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd787776523f4586b3aeadff94930387 = $('<div id="html_fd787776523f4586b3aeadff94930387" style="width: 100.0%; height: 100.0%;">Date: 2018-01-05 08:27:47   Place: 33km S of Oromocto, Canada   Magnitude: 2.1</div>')[0];
+                popup_22d7f0da47b04a8080e511477ce071b2.setContent(html_fd787776523f4586b3aeadff94930387);
+            
+
+            circle_marker_1c40789971ce4a3a9b21b8a28882c72e.bindPopup(popup_22d7f0da47b04a8080e511477ce071b2);
+
+            
+        
+    
+            var circle_marker_1d28e013efbe46ab988fad064cc38c23 = L.circleMarker(
+                [46.14,-65.85],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e9cb9f4e7a3d478796a3784ae33e8169 = L.popup({maxWidth: '300'});
+
+            
+                var html_222ca1285ec84ae6a94879436bae9a83 = $('<div id="html_222ca1285ec84ae6a94879436bae9a83" style="width: 100.0%; height: 100.0%;">Date: 2018-02-02 01:00:37   Place: 53km NNW of Sussex, Canada   Magnitude: 2.1</div>')[0];
+                popup_e9cb9f4e7a3d478796a3784ae33e8169.setContent(html_222ca1285ec84ae6a94879436bae9a83);
+            
+
+            circle_marker_1d28e013efbe46ab988fad064cc38c23.bindPopup(popup_e9cb9f4e7a3d478796a3784ae33e8169);
+
+            
+        
+    
+            var circle_marker_8b159805f5ee461a9a326ebc9739c54a = L.circleMarker(
+                [47.641,-69.904],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_f8e4fcc2028444e591e2c1f440c6bc0d = L.popup({maxWidth: '300'});
+
+            
+                var html_a285a41c9c704ecc806227a1124dc66d = $('<div id="html_a285a41c9c704ecc806227a1124dc66d" style="width: 100.0%; height: 100.0%;">Date: 2018-03-02 02:14:25   Place: 19km E of La Malbaie, Canada   Magnitude: 2.1</div>')[0];
+                popup_f8e4fcc2028444e591e2c1f440c6bc0d.setContent(html_a285a41c9c704ecc806227a1124dc66d);
+            
+
+            circle_marker_8b159805f5ee461a9a326ebc9739c54a.bindPopup(popup_f8e4fcc2028444e591e2c1f440c6bc0d);
+
+            
+        
+    
+            var circle_marker_9301daa9324a480684575b83bcaae431 = L.circleMarker(
+                [45.4945,-65.5945],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e0afe91ed077403db23e7ad5891a422d = L.popup({maxWidth: '300'});
+
+            
+                var html_0ac12ef52c9843519ffc05c29fd5b245 = $('<div id="html_0ac12ef52c9843519ffc05c29fd5b245" style="width: 100.0%; height: 100.0%;">Date: 2018-05-14 00:19:35   Place: 20km E of Hampton, Canada   Magnitude: 2.1</div>')[0];
+                popup_e0afe91ed077403db23e7ad5891a422d.setContent(html_0ac12ef52c9843519ffc05c29fd5b245);
+            
+
+            circle_marker_9301daa9324a480684575b83bcaae431.bindPopup(popup_e0afe91ed077403db23e7ad5891a422d);
+
+            
+        
+    
+            var circle_marker_569550d4d4ad43bc99175e96fdf4c25f = L.circleMarker(
+                [45.2025,-69.115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_2186e252478f4c8880babd640429f4f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_24ced64f666e4c98bb8cf3869a61d192 = $('<div id="html_24ced64f666e4c98bb8cf3869a61d192" style="width: 100.0%; height: 100.0%;">Date: 2018-05-20 23:35:42   Place: 9km ENE of Dover-Foxcroft, Maine   Magnitude: 2.1</div>')[0];
+                popup_2186e252478f4c8880babd640429f4f8.setContent(html_24ced64f666e4c98bb8cf3869a61d192);
+            
+
+            circle_marker_569550d4d4ad43bc99175e96fdf4c25f.bindPopup(popup_2186e252478f4c8880babd640429f4f8);
+
+            
+        
+    
+            var circle_marker_5928c61af0ab4def97470ceed52a10b0 = L.circleMarker(
+                [45.4161,-68.9626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "orange",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_0ea104d7282946169014f533a7ed8194 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c9e03749d914156ad247beeb527d586 = $('<div id="html_8c9e03749d914156ad247beeb527d586" style="width: 100.0%; height: 100.0%;">Date: 2018-06-29 15:49:38   Place: 13km NNE of Brownville, Maine   Magnitude: 2.1</div>')[0];
+                popup_0ea104d7282946169014f533a7ed8194.setContent(html_8c9e03749d914156ad247beeb527d586);
+            
+
+            circle_marker_5928c61af0ab4def97470ceed52a10b0.bindPopup(popup_0ea104d7282946169014f533a7ed8194);
+
+            
+        
+    
+            var circle_marker_fbeb4af312fe49ef9c30b8d44fb11631 = L.circleMarker(
+                [43.4846,-71.5656],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_0914a2ed128747f1a9e870b2e6d11781 = L.popup({maxWidth: '300'});
+
+            
+                var html_2d2477b8eebb4274b07bdbe129964651 = $('<div id="html_2d2477b8eebb4274b07bdbe129964651" style="width: 100.0%; height: 100.0%;">Date: 2018-02-13 18:44:22   Place: 1km ESE of Sanbornton, New Hampshire   Magnitude: 2</div>')[0];
+                popup_0914a2ed128747f1a9e870b2e6d11781.setContent(html_2d2477b8eebb4274b07bdbe129964651);
+            
+
+            circle_marker_fbeb4af312fe49ef9c30b8d44fb11631.bindPopup(popup_0914a2ed128747f1a9e870b2e6d11781);
+
+            
+        
+    
+            var circle_marker_544b9a50ab2e44c09d6ccb088cbfee89 = L.circleMarker(
+                [46.9796,-66.5573],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_03c5ba32053347b5a27b23de08421c97 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b2bc64e7667419b9011b221cbfbf8cb = $('<div id="html_6b2bc64e7667419b9011b221cbfbf8cb" style="width: 100.0%; height: 100.0%;">Date: 2018-05-20 23:47:23   Place: 83km W of Miramichi, Canada   Magnitude: 2</div>')[0];
+                popup_03c5ba32053347b5a27b23de08421c97.setContent(html_6b2bc64e7667419b9011b221cbfbf8cb);
+            
+
+            circle_marker_544b9a50ab2e44c09d6ccb088cbfee89.bindPopup(popup_03c5ba32053347b5a27b23de08421c97);
+
+            
+        
+    
+            var circle_marker_24e43b3d0f2f4354ab06073ff954be74 = L.circleMarker(
+                [47.4726,-70.0201],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8b45c7ddaecb4239b95c68485cff229c = L.popup({maxWidth: '300'});
+
+            
+                var html_960ad5fff1be4b78a0cb0442e4b12f97 = $('<div id="html_960ad5fff1be4b78a0cb0442e4b12f97" style="width: 100.0%; height: 100.0%;">Date: 2018-06-18 09:15:01   Place: 14km NNE of La Pocatiere, Canada   Magnitude: 2</div>')[0];
+                popup_8b45c7ddaecb4239b95c68485cff229c.setContent(html_960ad5fff1be4b78a0cb0442e4b12f97);
+            
+
+            circle_marker_24e43b3d0f2f4354ab06073ff954be74.bindPopup(popup_8b45c7ddaecb4239b95c68485cff229c);
+
+            
+        
+    
+            var circle_marker_4816691fb6f24da08e14a760fd667522 = L.circleMarker(
+                [36.2458333,-81.1301667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_88e32c67a3cc4ab88b0c1c1ce3394115 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ae29a5761ae451c8d093a6da223495a = $('<div id="html_8ae29a5761ae451c8d093a6da223495a" style="width: 100.0%; height: 100.0%;">Date: 2018-06-10 20:16:46   Place: 1km WSW of Hays, North Carolina   Magnitude: 1.98</div>')[0];
+                popup_88e32c67a3cc4ab88b0c1c1ce3394115.setContent(html_8ae29a5761ae451c8d093a6da223495a);
+            
+
+            circle_marker_4816691fb6f24da08e14a760fd667522.bindPopup(popup_88e32c67a3cc4ab88b0c1c1ce3394115);
+
+            
+        
+    
+            var circle_marker_7540cce8d0194862b1411cef62859c8e = L.circleMarker(
+                [36.177,-81.9668333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_1cd7608fe3f945338801f5fcbeddc2cc = L.popup({maxWidth: '300'});
+
+            
+                var html_7d1239b5cd274c85b453d72a958c9088 = $('<div id="html_7d1239b5cd274c85b453d72a958c9088" style="width: 100.0%; height: 100.0%;">Date: 2018-07-09 03:03:17   Place: 8km W of Banner Elk, North Carolina   Magnitude: 1.96</div>')[0];
+                popup_1cd7608fe3f945338801f5fcbeddc2cc.setContent(html_7d1239b5cd274c85b453d72a958c9088);
+            
+
+            circle_marker_7540cce8d0194862b1411cef62859c8e.bindPopup(popup_1cd7608fe3f945338801f5fcbeddc2cc);
+
+            
+        
+    
+            var circle_marker_673a6351bf88412493cf0e593b525a86 = L.circleMarker(
+                [34.7095,-80.268],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_7dab7cd049d04fe68607d11b98a4d511 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cbece6c8ec744349a3458f194818ecd = $('<div id="html_4cbece6c8ec744349a3458f194818ecd" style="width: 100.0%; height: 100.0%;">Date: 2018-04-05 22:52:30   Place: 13km ESE of Pageland, South Carolina   Magnitude: 1.95</div>')[0];
+                popup_7dab7cd049d04fe68607d11b98a4d511.setContent(html_4cbece6c8ec744349a3458f194818ecd);
+            
+
+            circle_marker_673a6351bf88412493cf0e593b525a86.bindPopup(popup_7dab7cd049d04fe68607d11b98a4d511);
+
+            
+        
+    
+            var circle_marker_ff336a27a7cd48e3897d537d873b2fcf = L.circleMarker(
+                [44.0995,-69.7872],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d08eca19d51c4f88a9cf8e6fe5612829 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a85d9c5f9ec43909201f2eb9b78288a = $('<div id="html_4a85d9c5f9ec43909201f2eb9b78288a" style="width: 100.0%; height: 100.0%;">Date: 2018-01-17 19:47:39   Place: 1km NE of Richmond, Maine   Magnitude: 1.9</div>')[0];
+                popup_d08eca19d51c4f88a9cf8e6fe5612829.setContent(html_4a85d9c5f9ec43909201f2eb9b78288a);
+            
+
+            circle_marker_ff336a27a7cd48e3897d537d873b2fcf.bindPopup(popup_d08eca19d51c4f88a9cf8e6fe5612829);
+
+            
+        
+    
+            var circle_marker_89d4db81f221410d8de05f807f814407 = L.circleMarker(
+                [47.3372,-70.3828],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_2730d034c46d4717a6fe8f8084c24ded = L.popup({maxWidth: '300'});
+
+            
+                var html_d4dc44673aa843b38b8054d00b2675ee = $('<div id="html_d4dc44673aa843b38b8054d00b2675ee" style="width: 100.0%; height: 100.0%;">Date: 2018-01-27 00:27:36   Place: 14km SE of Baie-Saint-Paul, Canada   Magnitude: 1.9</div>')[0];
+                popup_2730d034c46d4717a6fe8f8084c24ded.setContent(html_d4dc44673aa843b38b8054d00b2675ee);
+            
+
+            circle_marker_89d4db81f221410d8de05f807f814407.bindPopup(popup_2730d034c46d4717a6fe8f8084c24ded);
+
+            
+        
+    
+            var circle_marker_0427e49ba0964d8b8c16969b6c253dd1 = L.circleMarker(
+                [47.033,-66.619],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e783006b202d4d71851a6bd99e1dc895 = L.popup({maxWidth: '300'});
+
+            
+                var html_b09186307f744d7fbeceb6bd4bdd22c1 = $('<div id="html_b09186307f744d7fbeceb6bd4bdd22c1" style="width: 100.0%; height: 100.0%;">Date: 2018-03-17 19:13:30   Place: 87km W of Miramichi, Canada   Magnitude: 1.9</div>')[0];
+                popup_e783006b202d4d71851a6bd99e1dc895.setContent(html_b09186307f744d7fbeceb6bd4bdd22c1);
+            
+
+            circle_marker_0427e49ba0964d8b8c16969b6c253dd1.bindPopup(popup_e783006b202d4d71851a6bd99e1dc895);
+
+            
+        
+    
+            var circle_marker_1532e94bbee84ccc87c90f215b06cd11 = L.circleMarker(
+                [47.237,-66.262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_5cffd36367b044a7ab70ac24c8a78222 = L.popup({maxWidth: '300'});
+
+            
+                var html_250b1f3babec4e1f8b11ccd75b8823d6 = $('<div id="html_250b1f3babec4e1f8b11ccd75b8823d6" style="width: 100.0%; height: 100.0%;">Date: 2018-03-28 17:31:08   Place: 62km SW of Bathurst, Canada   Magnitude: 1.9</div>')[0];
+                popup_5cffd36367b044a7ab70ac24c8a78222.setContent(html_250b1f3babec4e1f8b11ccd75b8823d6);
+            
+
+            circle_marker_1532e94bbee84ccc87c90f215b06cd11.bindPopup(popup_5cffd36367b044a7ab70ac24c8a78222);
+
+            
+        
+    
+            var circle_marker_40911c0abfb84192b92aea90bb7edcd3 = L.circleMarker(
+                [47.6111,-69.9586],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_aac413e8c8f94fc4a00d822088bf948c = L.popup({maxWidth: '300'});
+
+            
+                var html_dc19920f15e54655adad2720863cc943 = $('<div id="html_dc19920f15e54655adad2720863cc943" style="width: 100.0%; height: 100.0%;">Date: 2018-04-03 18:14:24   Place: 15km ESE of La Malbaie, Canada   Magnitude: 1.9</div>')[0];
+                popup_aac413e8c8f94fc4a00d822088bf948c.setContent(html_dc19920f15e54655adad2720863cc943);
+            
+
+            circle_marker_40911c0abfb84192b92aea90bb7edcd3.bindPopup(popup_aac413e8c8f94fc4a00d822088bf948c);
+
+            
+        
+    
+            var circle_marker_f11aeadd82ab4c42bd516df19537f22c = L.circleMarker(
+                [46.6715,-66.5516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_52d42e53f5e641b3b493359cf6455d2f = L.popup({maxWidth: '300'});
+
+            
+                var html_6308ef6f590f4ad7a50db807cfb5a3e8 = $('<div id="html_6308ef6f590f4ad7a50db807cfb5a3e8" style="width: 100.0%; height: 100.0%;">Date: 2018-04-21 23:18:12   Place: 81km N of Fredericton, Canada   Magnitude: 1.9</div>')[0];
+                popup_52d42e53f5e641b3b493359cf6455d2f.setContent(html_6308ef6f590f4ad7a50db807cfb5a3e8);
+            
+
+            circle_marker_f11aeadd82ab4c42bd516df19537f22c.bindPopup(popup_52d42e53f5e641b3b493359cf6455d2f);
+
+            
+        
+    
+            var circle_marker_1f2e69b1ec584a8e890fe673584a9b76 = L.circleMarker(
+                [47.802,-69.6698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c9d48f9f2bc34a288ced54ce88c67549 = L.popup({maxWidth: '300'});
+
+            
+                var html_00a67d0439ca46aa85eb074a148f484a = $('<div id="html_00a67d0439ca46aa85eb074a148f484a" style="width: 100.0%; height: 100.0%;">Date: 2018-05-22 04:52:02   Place: 10km WSW of Riviere-du-Loup, Canada   Magnitude: 1.9</div>')[0];
+                popup_c9d48f9f2bc34a288ced54ce88c67549.setContent(html_00a67d0439ca46aa85eb074a148f484a);
+            
+
+            circle_marker_1f2e69b1ec584a8e890fe673584a9b76.bindPopup(popup_c9d48f9f2bc34a288ced54ce88c67549);
+
+            
+        
+    
+            var circle_marker_d60671ab2c1c403189d7cbf9a85b275c = L.circleMarker(
+                [36.1683333,-81.9616667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_cddb72589163492f925699b996ffb903 = L.popup({maxWidth: '300'});
+
+            
+                var html_7370326096e64dbe94228ffc7ec5736b = $('<div id="html_7370326096e64dbe94228ffc7ec5736b" style="width: 100.0%; height: 100.0%;">Date: 2018-07-11 02:20:20   Place: 8km W of Banner Elk, North Carolina   Magnitude: 1.89</div>')[0];
+                popup_cddb72589163492f925699b996ffb903.setContent(html_7370326096e64dbe94228ffc7ec5736b);
+            
+
+            circle_marker_d60671ab2c1c403189d7cbf9a85b275c.bindPopup(popup_cddb72589163492f925699b996ffb903);
+
+            
+        
+    
+            var circle_marker_78616132b7114a048f8ca75c582c65b0 = L.circleMarker(
+                [44.8595,-74.7231667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b5de3461e564403cbf55916f6092e9ef = L.popup({maxWidth: '300'});
+
+            
+                var html_c5285d633db64c06b73deb938b3ecc21 = $('<div id="html_c5285d633db64c06b73deb938b3ecc21" style="width: 100.0%; height: 100.0%;">Date: 2018-03-21 18:51:58   Place: 15km ESE of Massena, New York   Magnitude: 1.88</div>')[0];
+                popup_b5de3461e564403cbf55916f6092e9ef.setContent(html_c5285d633db64c06b73deb938b3ecc21);
+            
+
+            circle_marker_78616132b7114a048f8ca75c582c65b0.bindPopup(popup_b5de3461e564403cbf55916f6092e9ef);
+
+            
+        
+    
+            var circle_marker_a9b8453677fa49c086005bb37dc74902 = L.circleMarker(
+                [44.1062,-69.8265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_17175f2d587340ce81bf03cadb1e952c = L.popup({maxWidth: '300'});
+
+            
+                var html_8f33085592334519858861be91b8fcc8 = $('<div id="html_8f33085592334519858861be91b8fcc8" style="width: 100.0%; height: 100.0%;">Date: 2018-01-17 19:59:39   Place: 3km NW of Richmond, Maine   Magnitude: 1.8</div>')[0];
+                popup_17175f2d587340ce81bf03cadb1e952c.setContent(html_8f33085592334519858861be91b8fcc8);
+            
+
+            circle_marker_a9b8453677fa49c086005bb37dc74902.bindPopup(popup_17175f2d587340ce81bf03cadb1e952c);
+
+            
+        
+    
+            var circle_marker_f618ad59e65b4d91af9f80c9ff5a0ab3 = L.circleMarker(
+                [47.4411,-70.1644],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b9192b24fae64c5385904afeb5f86a2d = L.popup({maxWidth: '300'});
+
+            
+                var html_68e64757b9e648c6a71182d36da0a0f7 = $('<div id="html_68e64757b9e648c6a71182d36da0a0f7" style="width: 100.0%; height: 100.0%;">Date: 2018-01-24 02:32:39   Place: 12km NW of La Pocatiere, Canada   Magnitude: 1.8</div>')[0];
+                popup_b9192b24fae64c5385904afeb5f86a2d.setContent(html_68e64757b9e648c6a71182d36da0a0f7);
+            
+
+            circle_marker_f618ad59e65b4d91af9f80c9ff5a0ab3.bindPopup(popup_b9192b24fae64c5385904afeb5f86a2d);
+
+            
+        
+    
+            var circle_marker_a3c99c1bcb9d4a5d8292942d5506d6f6 = L.circleMarker(
+                [47.4566,-70.4471],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_6cf083c9e1ad4b708b009e10151cb8bd = L.popup({maxWidth: '300'});
+
+            
+                var html_5b533814b38f4f138f609c9d95bb8735 = $('<div id="html_5b533814b38f4f138f609c9d95bb8735" style="width: 100.0%; height: 100.0%;">Date: 2018-06-04 23:30:05   Place: 4km ENE of Baie-Saint-Paul, Canada   Magnitude: 1.8</div>')[0];
+                popup_6cf083c9e1ad4b708b009e10151cb8bd.setContent(html_5b533814b38f4f138f609c9d95bb8735);
+            
+
+            circle_marker_a3c99c1bcb9d4a5d8292942d5506d6f6.bindPopup(popup_6cf083c9e1ad4b708b009e10151cb8bd);
+
+            
+        
+    
+            var circle_marker_2f4db322f97d4b5f93b97c0ea8534af7 = L.circleMarker(
+                [43.4042,-67.008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_03d9106ab2a84e4183f3c47f9e45fe72 = L.popup({maxWidth: '300'});
+
+            
+                var html_4f2d30a4135948d69c7298abdcac2ca6 = $('<div id="html_4f2d30a4135948d69c7298abdcac2ca6" style="width: 100.0%; height: 100.0%;">Date: 2018-06-08 00:33:50   Place: 86km WSW of Yarmouth, Canada   Magnitude: 1.8</div>')[0];
+                popup_03d9106ab2a84e4183f3c47f9e45fe72.setContent(html_4f2d30a4135948d69c7298abdcac2ca6);
+            
+
+            circle_marker_2f4db322f97d4b5f93b97c0ea8534af7.bindPopup(popup_03d9106ab2a84e4183f3c47f9e45fe72);
+
+            
+        
+    
+            var circle_marker_79e0a568c5534e9a84d06047910184d3 = L.circleMarker(
+                [41.6488333,-74.6353333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d57af9a960ab46eba5317b71cc293080 = L.popup({maxWidth: '300'});
+
+            
+                var html_5739aa4d4b004548b34fbd75156c6e6d = $('<div id="html_5739aa4d4b004548b34fbd75156c6e6d" style="width: 100.0%; height: 100.0%;">Date: 2018-05-23 13:50:10   Place: 4km E of Monticello, New York   Magnitude: 1.78</div>')[0];
+                popup_d57af9a960ab46eba5317b71cc293080.setContent(html_5739aa4d4b004548b34fbd75156c6e6d);
+            
+
+            circle_marker_79e0a568c5534e9a84d06047910184d3.bindPopup(popup_d57af9a960ab46eba5317b71cc293080);
+
+            
+        
+    
+            var circle_marker_d5be159cffe04ae2a3da03274ec71cc0 = L.circleMarker(
+                [41.128,-74.043],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_612e6059579d48ffa7ec9809b8d19980 = L.popup({maxWidth: '300'});
+
+            
+                var html_7cd349d665224ea69a46a9d8d3543205 = $('<div id="html_7cd349d665224ea69a46a9d8d3543205" style="width: 100.0%; height: 100.0%;">Date: 2018-05-25 16:22:32   Place: 0km W of Hillcrest, New York   Magnitude: 1.78</div>')[0];
+                popup_612e6059579d48ffa7ec9809b8d19980.setContent(html_7cd349d665224ea69a46a9d8d3543205);
+            
+
+            circle_marker_d5be159cffe04ae2a3da03274ec71cc0.bindPopup(popup_612e6059579d48ffa7ec9809b8d19980);
+
+            
+        
+    
+            var circle_marker_c55b751eda5641d4916d891f4a15397c = L.circleMarker(
+                [35.636,-81.2775],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_66c4c78966e14eae9367546ff52abcee = L.popup({maxWidth: '300'});
+
+            
+                var html_bd0effaa1c8f468fbcf9af4cbb52d531 = $('<div id="html_bd0effaa1c8f468fbcf9af4cbb52d531" style="width: 100.0%; height: 100.0%;">Date: 2018-06-12 18:39:20   Place: 6km SW of Newton, North Carolina   Magnitude: 1.76</div>')[0];
+                popup_66c4c78966e14eae9367546ff52abcee.setContent(html_bd0effaa1c8f468fbcf9af4cbb52d531);
+            
+
+            circle_marker_c55b751eda5641d4916d891f4a15397c.bindPopup(popup_66c4c78966e14eae9367546ff52abcee);
+
+            
+        
+    
+            var circle_marker_dde1983351be40c6aa6bef4ef6d39f6b = L.circleMarker(
+                [37.9568333,-77.9598333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8d4b635dc6e44631bcab68dfa2337874 = L.popup({maxWidth: '300'});
+
+            
+                var html_29d0d647efff491ea36be13ea9f523e7 = $('<div id="html_29d0d647efff491ea36be13ea9f523e7" style="width: 100.0%; height: 100.0%;">Date: 2018-07-05 03:42:39   Place: 8km SSE of Louisa, Virginia   Magnitude: 1.74</div>')[0];
+                popup_8d4b635dc6e44631bcab68dfa2337874.setContent(html_29d0d647efff491ea36be13ea9f523e7);
+            
+
+            circle_marker_dde1983351be40c6aa6bef4ef6d39f6b.bindPopup(popup_8d4b635dc6e44631bcab68dfa2337874);
+
+            
+        
+    
+            var circle_marker_215a9880208e46399b596e01d5325ce6 = L.circleMarker(
+                [35.789,-82.0993333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b6999a7aa5cc4da09719d15c2bf09882 = L.popup({maxWidth: '300'});
+
+            
+                var html_a2195edb248740aba8da55f10a060c52 = $('<div id="html_a2195edb248740aba8da55f10a060c52" style="width: 100.0%; height: 100.0%;">Date: 2018-03-19 08:19:00   Place: 14km NW of Marion, North Carolina   Magnitude: 1.71</div>')[0];
+                popup_b6999a7aa5cc4da09719d15c2bf09882.setContent(html_a2195edb248740aba8da55f10a060c52);
+            
+
+            circle_marker_215a9880208e46399b596e01d5325ce6.bindPopup(popup_b6999a7aa5cc4da09719d15c2bf09882);
+
+            
+        
+    
+            var circle_marker_a8afe046714548deba527a6f1d6f2d33 = L.circleMarker(
+                [46.3141,-67.8174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_9faa98319f0b4e539995112dee973961 = L.popup({maxWidth: '300'});
+
+            
+                var html_c8151577f4f34166af56978581bfb5bd = $('<div id="html_c8151577f4f34166af56978581bfb5bd" style="width: 100.0%; height: 100.0%;">Date: 2018-01-01 00:10:58   Place: 20km N of Houlton, Maine   Magnitude: 1.7</div>')[0];
+                popup_9faa98319f0b4e539995112dee973961.setContent(html_c8151577f4f34166af56978581bfb5bd);
+            
+
+            circle_marker_a8afe046714548deba527a6f1d6f2d33.bindPopup(popup_9faa98319f0b4e539995112dee973961);
+
+            
+        
+    
+            var circle_marker_8cd80b26f90042df94261db28d5f2d66 = L.circleMarker(
+                [44.5996,-69.6516],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_7c0b3128ef9147ccba1814696b8bd37b = L.popup({maxWidth: '300'});
+
+            
+                var html_d115ee85837d4022a7de475e36f47243 = $('<div id="html_d115ee85837d4022a7de475e36f47243" style="width: 100.0%; height: 100.0%;">Date: 2018-01-19 01:24:34   Place: 4km WNW of Fairfield, Maine   Magnitude: 1.7</div>')[0];
+                popup_7c0b3128ef9147ccba1814696b8bd37b.setContent(html_d115ee85837d4022a7de475e36f47243);
+            
+
+            circle_marker_8cd80b26f90042df94261db28d5f2d66.bindPopup(popup_7c0b3128ef9147ccba1814696b8bd37b);
+
+            
+        
+    
+            var circle_marker_f16f0a543cba48fba0163721a54dd7a7 = L.circleMarker(
+                [44.2081,-67.8499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_4a3db469caac49e8b11784873ddaab26 = L.popup({maxWidth: '300'});
+
+            
+                var html_d055ed587781413ca4405258768b3d95 = $('<div id="html_d055ed587781413ca4405258768b3d95" style="width: 100.0%; height: 100.0%;">Date: 2018-03-28 21:50:18   Place: 33km SSE of Gouldsboro, Maine   Magnitude: 1.7</div>')[0];
+                popup_4a3db469caac49e8b11784873ddaab26.setContent(html_d055ed587781413ca4405258768b3d95);
+            
+
+            circle_marker_f16f0a543cba48fba0163721a54dd7a7.bindPopup(popup_4a3db469caac49e8b11784873ddaab26);
+
+            
+        
+    
+            var circle_marker_a3e94ad4da9c439ab39cc6963c6f0bc0 = L.circleMarker(
+                [45.59,-67.33],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b7a04ceeb8264fa9b294f9d6360a71bd = L.popup({maxWidth: '300'});
+
+            
+                var html_5c4fb4027f3e49a2bdf8b3412b42a88d = $('<div id="html_5c4fb4027f3e49a2bdf8b3412b42a88d" style="width: 100.0%; height: 100.0%;">Date: 2018-03-31 08:03:23   Place: 44km N of Calais, Maine   Magnitude: 1.7</div>')[0];
+                popup_b7a04ceeb8264fa9b294f9d6360a71bd.setContent(html_5c4fb4027f3e49a2bdf8b3412b42a88d);
+            
+
+            circle_marker_a3e94ad4da9c439ab39cc6963c6f0bc0.bindPopup(popup_b7a04ceeb8264fa9b294f9d6360a71bd);
+
+            
+        
+    
+            var circle_marker_ff9fa0e153f34e4fa3214c8079d64770 = L.circleMarker(
+                [47.4669,-70.2173],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_342b3c30b8bc4c068b12392ac95bab9b = L.popup({maxWidth: '300'});
+
+            
+                var html_386a5de384124a9f881c13d2e7969f9d = $('<div id="html_386a5de384124a9f881c13d2e7969f9d" style="width: 100.0%; height: 100.0%;">Date: 2018-04-08 05:12:06   Place: 17km NW of La Pocatiere, Canada   Magnitude: 1.7</div>')[0];
+                popup_342b3c30b8bc4c068b12392ac95bab9b.setContent(html_386a5de384124a9f881c13d2e7969f9d);
+            
+
+            circle_marker_ff9fa0e153f34e4fa3214c8079d64770.bindPopup(popup_342b3c30b8bc4c068b12392ac95bab9b);
+
+            
+        
+    
+            var circle_marker_547597f99c0640b4bd0a3be4b30b6242 = L.circleMarker(
+                [47.357,-70.1474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_7014566c258642549be20f98c631cb63 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce8fede07a34417386be8514460a7e2e = $('<div id="html_ce8fede07a34417386be8514460a7e2e" style="width: 100.0%; height: 100.0%;">Date: 2018-05-06 03:59:37   Place: 6km W of La Pocatiere, Canada   Magnitude: 1.7</div>')[0];
+                popup_7014566c258642549be20f98c631cb63.setContent(html_ce8fede07a34417386be8514460a7e2e);
+            
+
+            circle_marker_547597f99c0640b4bd0a3be4b30b6242.bindPopup(popup_7014566c258642549be20f98c631cb63);
+
+            
+        
+    
+            var circle_marker_b4616de84f0e4e13b9143eab35ac251e = L.circleMarker(
+                [35.654,-81.313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e744034fe43141ca9dd77ebf56c30a51 = L.popup({maxWidth: '300'});
+
+            
+                var html_d277535dc37446728ba4203f89d540fe = $('<div id="html_d277535dc37446728ba4203f89d540fe" style="width: 100.0%; height: 100.0%;">Date: 2018-06-12 21:12:58   Place: 6km ESE of Mountain View, North Carolina   Magnitude: 1.69</div>')[0];
+                popup_e744034fe43141ca9dd77ebf56c30a51.setContent(html_d277535dc37446728ba4203f89d540fe);
+            
+
+            circle_marker_b4616de84f0e4e13b9143eab35ac251e.bindPopup(popup_e744034fe43141ca9dd77ebf56c30a51);
+
+            
+        
+    
+            var circle_marker_11d7ff7dd8cc47cb86512c1a283ee0f9 = L.circleMarker(
+                [39.7965,-74.6313333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_595c568edba644b2b5a8b23af77d82fc = L.popup({maxWidth: '300'});
+
+            
+                var html_8bc257defdf0478f8eb7d51640fc362a = $('<div id="html_8bc257defdf0478f8eb7d51640fc362a" style="width: 100.0%; height: 100.0%;">Date: 2018-06-21 00:28:37   Place: 12km SSE of Leisuretowne, New Jersey   Magnitude: 1.65</div>')[0];
+                popup_595c568edba644b2b5a8b23af77d82fc.setContent(html_8bc257defdf0478f8eb7d51640fc362a);
+            
+
+            circle_marker_11d7ff7dd8cc47cb86512c1a283ee0f9.bindPopup(popup_595c568edba644b2b5a8b23af77d82fc);
+
+            
+        
+    
+            var circle_marker_012258ed3c6147d3870c41add7288549 = L.circleMarker(
+                [45.106,-74.222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8f98758077074c0fbdc52e01db1e0bc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_7c760f63888640f6a56334f7f66dd957 = $('<div id="html_7c760f63888640f6a56334f7f66dd957" style="width: 100.0%; height: 100.0%;">Date: 2018-01-07 22:02:31   Place: 5km WNW of Huntingdon, Canada   Magnitude: 1.6</div>')[0];
+                popup_8f98758077074c0fbdc52e01db1e0bc7.setContent(html_7c760f63888640f6a56334f7f66dd957);
+            
+
+            circle_marker_012258ed3c6147d3870c41add7288549.bindPopup(popup_8f98758077074c0fbdc52e01db1e0bc7);
+
+            
+        
+    
+            var circle_marker_2b9053e9f40e45a7b3b99c8b7274cf92 = L.circleMarker(
+                [44.3224,-66.9858],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_70f4b5ae0dc24450b02896dcddc1b4f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_e984e170d495413f87c5e65630db0d6e = $('<div id="html_e984e170d495413f87c5e65630db0d6e" style="width: 100.0%; height: 100.0%;">Date: 2018-01-08 02:12:15   Place: 52km SE of Machiasport, Maine   Magnitude: 1.6</div>')[0];
+                popup_70f4b5ae0dc24450b02896dcddc1b4f4.setContent(html_e984e170d495413f87c5e65630db0d6e);
+            
+
+            circle_marker_2b9053e9f40e45a7b3b99c8b7274cf92.bindPopup(popup_70f4b5ae0dc24450b02896dcddc1b4f4);
+
+            
+        
+    
+            var circle_marker_03984b9fd46244a9928dc23dcd34790a = L.circleMarker(
+                [44.9475,-68.9761],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_856f27a43bdc43b1bd6d896c8fccc6dc = L.popup({maxWidth: '300'});
+
+            
+                var html_01806027fa424dbd8134c969e2b7fa43 = $('<div id="html_01806027fa424dbd8134c969e2b7fa43" style="width: 100.0%; height: 100.0%;">Date: 2018-01-17 21:15:05   Place: 4km NW of Kenduskeag, Maine   Magnitude: 1.6</div>')[0];
+                popup_856f27a43bdc43b1bd6d896c8fccc6dc.setContent(html_01806027fa424dbd8134c969e2b7fa43);
+            
+
+            circle_marker_03984b9fd46244a9928dc23dcd34790a.bindPopup(popup_856f27a43bdc43b1bd6d896c8fccc6dc);
+
+            
+        
+    
+            var circle_marker_7fe9f2a9564c49e7bad765619f4a5973 = L.circleMarker(
+                [43.7939,-71.0051],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_85dab3772dd847efaff41c28484fd9a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_68c97563f6ae4c41a88dbc3e99ae08b0 = $('<div id="html_68c97563f6ae4c41a88dbc3e99ae08b0" style="width: 100.0%; height: 100.0%;">Date: 2018-01-24 01:05:45   Place: 3km SE of Freedom, New Hampshire   Magnitude: 1.6</div>')[0];
+                popup_85dab3772dd847efaff41c28484fd9a0.setContent(html_68c97563f6ae4c41a88dbc3e99ae08b0);
+            
+
+            circle_marker_7fe9f2a9564c49e7bad765619f4a5973.bindPopup(popup_85dab3772dd847efaff41c28484fd9a0);
+
+            
+        
+    
+            var circle_marker_693669638e2b421db6910fa029a3c878 = L.circleMarker(
+                [45.2457,-69.3737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_4acb536014da453f9472114375bb2d1b = L.popup({maxWidth: '300'});
+
+            
+                var html_c6b103a12e7a4ed1b5393b2d676c1e97 = $('<div id="html_c6b103a12e7a4ed1b5393b2d676c1e97" style="width: 100.0%; height: 100.0%;">Date: 2018-02-04 16:52:13   Place: 9km N of Sangerville, Maine   Magnitude: 1.6</div>')[0];
+                popup_4acb536014da453f9472114375bb2d1b.setContent(html_c6b103a12e7a4ed1b5393b2d676c1e97);
+            
+
+            circle_marker_693669638e2b421db6910fa029a3c878.bindPopup(popup_4acb536014da453f9472114375bb2d1b);
+
+            
+        
+    
+            var circle_marker_611f6cb88f00408dbe555bcf7761cf55 = L.circleMarker(
+                [45.0728,-70.9056],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d9410b3b7c7447739ef555b4d3c2f8df = L.popup({maxWidth: '300'});
+
+            
+                var html_f10c915a795947e99f360d295ada8449 = $('<div id="html_f10c915a795947e99f360d295ada8449" style="width: 100.0%; height: 100.0%;">Date: 2018-02-14 20:34:25   Place: 50km ENE of Colebrook, New Hampshire   Magnitude: 1.6</div>')[0];
+                popup_d9410b3b7c7447739ef555b4d3c2f8df.setContent(html_f10c915a795947e99f360d295ada8449);
+            
+
+            circle_marker_611f6cb88f00408dbe555bcf7761cf55.bindPopup(popup_d9410b3b7c7447739ef555b4d3c2f8df);
+
+            
+        
+    
+            var circle_marker_f015517539f84b7385c945aa449f5f15 = L.circleMarker(
+                [45.5736,-67.3325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_93289868adeb41d2b7ec02b9f11291d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_106009639ac04288967cb955fab08430 = $('<div id="html_106009639ac04288967cb955fab08430" style="width: 100.0%; height: 100.0%;">Date: 2018-03-28 23:01:44   Place: 42km N of Calais, Maine   Magnitude: 1.6</div>')[0];
+                popup_93289868adeb41d2b7ec02b9f11291d1.setContent(html_106009639ac04288967cb955fab08430);
+            
+
+            circle_marker_f015517539f84b7385c945aa449f5f15.bindPopup(popup_93289868adeb41d2b7ec02b9f11291d1);
+
+            
+        
+    
+            var circle_marker_a3368df7c3cc4e9b9892cef9e2b51803 = L.circleMarker(
+                [44.946,-66.3847],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_853b1caa9bf14ed2936265247290bd52 = L.popup({maxWidth: '300'});
+
+            
+                var html_b981355949f044dd8f7e3d2aa336d277 = $('<div id="html_b981355949f044dd8f7e3d2aa336d277" style="width: 100.0%; height: 100.0%;">Date: 2018-05-16 19:04:10   Place: 44km SW of Saint John, Canada   Magnitude: 1.6</div>')[0];
+                popup_853b1caa9bf14ed2936265247290bd52.setContent(html_b981355949f044dd8f7e3d2aa336d277);
+            
+
+            circle_marker_a3368df7c3cc4e9b9892cef9e2b51803.bindPopup(popup_853b1caa9bf14ed2936265247290bd52);
+
+            
+        
+    
+            var circle_marker_f293166f43764d828b6a9b4277364a84 = L.circleMarker(
+                [43.932,-70.4178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_0b5cb3b2bea94b20a62bab2b67a34593 = L.popup({maxWidth: '300'});
+
+            
+                var html_62677086a09141058fb26631607bfe04 = $('<div id="html_62677086a09141058fb26631607bfe04" style="width: 100.0%; height: 100.0%;">Date: 2018-06-03 23:04:51   Place: 5km NE of Raymond, Maine   Magnitude: 1.6</div>')[0];
+                popup_0b5cb3b2bea94b20a62bab2b67a34593.setContent(html_62677086a09141058fb26631607bfe04);
+            
+
+            circle_marker_f293166f43764d828b6a9b4277364a84.bindPopup(popup_0b5cb3b2bea94b20a62bab2b67a34593);
+
+            
+        
+    
+            var circle_marker_0fd94e53d9c740f98c2e14ea708a11ec = L.circleMarker(
+                [43.5925,-77.2621667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_18707674a9884662a1371fe7c89c3150 = L.popup({maxWidth: '300'});
+
+            
+                var html_18ede94f65c441edb2addf192dc9bfc9 = $('<div id="html_18ede94f65c441edb2addf192dc9bfc9" style="width: 100.0%; height: 100.0%;">Date: 2018-05-04 03:58:19   Place: 41km N of Williamson, New York   Magnitude: 1.51</div>')[0];
+                popup_18707674a9884662a1371fe7c89c3150.setContent(html_18ede94f65c441edb2addf192dc9bfc9);
+            
+
+            circle_marker_0fd94e53d9c740f98c2e14ea708a11ec.bindPopup(popup_18707674a9884662a1371fe7c89c3150);
+
+            
+        
+    
+            var circle_marker_05ffae51cc6b496384891e41c9af03dd = L.circleMarker(
+                [35.6781667,-81.3325],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_770cc080f1dc4b72af4809c7bde92ac8 = L.popup({maxWidth: '300'});
+
+            
+                var html_823c63b8d59646f79a23c48bc35fc4ea = $('<div id="html_823c63b8d59646f79a23c48bc35fc4ea" style="width: 100.0%; height: 100.0%;">Date: 2018-02-19 08:12:41   Place: 3km E of Mountain View, North Carolina   Magnitude: 1.5</div>')[0];
+                popup_770cc080f1dc4b72af4809c7bde92ac8.setContent(html_823c63b8d59646f79a23c48bc35fc4ea);
+            
+
+            circle_marker_05ffae51cc6b496384891e41c9af03dd.bindPopup(popup_770cc080f1dc4b72af4809c7bde92ac8);
+
+            
+        
+    
+            var circle_marker_f72ffcd70e6f4070bf4b5b946ef9d7d3 = L.circleMarker(
+                [41.3348,-73.0121],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_51f7c66564fe477e886bce72ca804983 = L.popup({maxWidth: '300'});
+
+            
+                var html_f63e8ff46ad449f1a41ea15e9c6d782f = $('<div id="html_f63e8ff46ad449f1a41ea15e9c6d782f" style="width: 100.0%; height: 100.0%;">Date: 2018-02-27 06:06:22   Place: 2km S of Woodbridge, Connecticut   Magnitude: 1.5</div>')[0];
+                popup_51f7c66564fe477e886bce72ca804983.setContent(html_f63e8ff46ad449f1a41ea15e9c6d782f);
+            
+
+            circle_marker_f72ffcd70e6f4070bf4b5b946ef9d7d3.bindPopup(popup_51f7c66564fe477e886bce72ca804983);
+
+            
+        
+    
+            var circle_marker_e042fa223c8a4061be2aca8d227600fd = L.circleMarker(
+                [44.4906,-66.9922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_f348363c836f488d8346e95abc4c307e = L.popup({maxWidth: '300'});
+
+            
+                var html_0a5f2ddd1e404e6286cf16aeb7b32088 = $('<div id="html_0a5f2ddd1e404e6286cf16aeb7b32088" style="width: 100.0%; height: 100.0%;">Date: 2018-03-01 07:39:29   Place: 39km SE of Machiasport, Maine   Magnitude: 1.5</div>')[0];
+                popup_f348363c836f488d8346e95abc4c307e.setContent(html_0a5f2ddd1e404e6286cf16aeb7b32088);
+            
+
+            circle_marker_e042fa223c8a4061be2aca8d227600fd.bindPopup(popup_f348363c836f488d8346e95abc4c307e);
+
+            
+        
+    
+            var circle_marker_65aeae835afb4989bec9d17d424b6103 = L.circleMarker(
+                [45.271,-67.12],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_837de325d07044db943b489a3761fd88 = L.popup({maxWidth: '300'});
+
+            
+                var html_07d5c49852134dd0b5f88cd8d56d1363 = $('<div id="html_07d5c49852134dd0b5f88cd8d56d1363" style="width: 100.0%; height: 100.0%;">Date: 2018-03-04 19:00:50   Place: 15km NE of Calais, Maine   Magnitude: 1.4</div>')[0];
+                popup_837de325d07044db943b489a3761fd88.setContent(html_07d5c49852134dd0b5f88cd8d56d1363);
+            
+
+            circle_marker_65aeae835afb4989bec9d17d424b6103.bindPopup(popup_837de325d07044db943b489a3761fd88);
+
+            
+        
+    
+            var circle_marker_4fec55a463cd43dfa08edff41da705a0 = L.circleMarker(
+                [43.5285,-71.5273],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_da33e125d94a4d8bbf47d8c417795a80 = L.popup({maxWidth: '300'});
+
+            
+                var html_b28c2da0719f4682ba283ce0244a6e3e = $('<div id="html_b28c2da0719f4682ba283ce0244a6e3e" style="width: 100.0%; height: 100.0%;">Date: 2018-04-03 12:09:07   Place: 4km W of Laconia, New Hampshire   Magnitude: 1.4</div>')[0];
+                popup_da33e125d94a4d8bbf47d8c417795a80.setContent(html_b28c2da0719f4682ba283ce0244a6e3e);
+            
+
+            circle_marker_4fec55a463cd43dfa08edff41da705a0.bindPopup(popup_da33e125d94a4d8bbf47d8c417795a80);
+
+            
+        
+    
+            var circle_marker_76c8001527324320acee8b9f50ae3fc0 = L.circleMarker(
+                [41.6507,-71.3674],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_b8aeb4bc1bc2472dbfe7ce8efc5a6a93 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc40a4a129e24e579d82eeba536a0785 = $('<div id="html_fc40a4a129e24e579d82eeba536a0785" style="width: 100.0%; height: 100.0%;">Date: 2018-04-06 23:25:18   Place: 6km SE of Warwick, Rhode Island   Magnitude: 1.4</div>')[0];
+                popup_b8aeb4bc1bc2472dbfe7ce8efc5a6a93.setContent(html_fc40a4a129e24e579d82eeba536a0785);
+            
+
+            circle_marker_76c8001527324320acee8b9f50ae3fc0.bindPopup(popup_b8aeb4bc1bc2472dbfe7ce8efc5a6a93);
+
+            
+        
+    
+            var circle_marker_1ba9ed515cbb4c72a95a3364cf862c64 = L.circleMarker(
+                [47.1508,-70.4659],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_03927f0ea94b42fc929e8acc8573f327 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac0385cd12c54874804bcd68b56d5433 = $('<div id="html_ac0385cd12c54874804bcd68b56d5433" style="width: 100.0%; height: 100.0%;">Date: 2018-06-10 16:09:20   Place: 20km NNE of Montmagny, Canada   Magnitude: 1.4</div>')[0];
+                popup_03927f0ea94b42fc929e8acc8573f327.setContent(html_ac0385cd12c54874804bcd68b56d5433);
+            
+
+            circle_marker_1ba9ed515cbb4c72a95a3364cf862c64.bindPopup(popup_03927f0ea94b42fc929e8acc8573f327);
+
+            
+        
+    
+            var circle_marker_ac6cf0eeb8e34e67b5bcbfd5927aae61 = L.circleMarker(
+                [42.0958,-71.3677],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8560bf345d884eb99cb26939e19e284c = L.popup({maxWidth: '300'});
+
+            
+                var html_4e3c677ad6484763b91f7569c1fc285c = $('<div id="html_4e3c677ad6484763b91f7569c1fc285c" style="width: 100.0%; height: 100.0%;">Date: 2018-06-25 02:30:13   Place: 2km ENE of Franklin, Massachusetts   Magnitude: 1.4</div>')[0];
+                popup_8560bf345d884eb99cb26939e19e284c.setContent(html_4e3c677ad6484763b91f7569c1fc285c);
+            
+
+            circle_marker_ac6cf0eeb8e34e67b5bcbfd5927aae61.bindPopup(popup_8560bf345d884eb99cb26939e19e284c);
+
+            
+        
+    
+            var circle_marker_9d3e6cd235094582ab6ab7ffb9f742b8 = L.circleMarker(
+                [44.794,-74.2723333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e6bce49d53cf4d3e95acb5bdb8794012 = L.popup({maxWidth: '300'});
+
+            
+                var html_703f57d4f61643fbbd1ab6fc47ba16e6 = $('<div id="html_703f57d4f61643fbbd1ab6fc47ba16e6" style="width: 100.0%; height: 100.0%;">Date: 2018-07-11 22:20:07   Place: 6km SSE of Malone, New York   Magnitude: 1.37</div>')[0];
+                popup_e6bce49d53cf4d3e95acb5bdb8794012.setContent(html_703f57d4f61643fbbd1ab6fc47ba16e6);
+            
+
+            circle_marker_9d3e6cd235094582ab6ab7ffb9f742b8.bindPopup(popup_e6bce49d53cf4d3e95acb5bdb8794012);
+
+            
+        
+    
+            var circle_marker_9a10adede4ee4b759b3c0af49b71dd28 = L.circleMarker(
+                [44.2704,-69.4459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_a6b877fe50544e0bb857239e6c0032e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_23ff585d3b684656847b2858b7811f78 = $('<div id="html_23ff585d3b684656847b2858b7811f78" style="width: 100.0%; height: 100.0%;">Date: 2018-05-05 21:08:53   Place: 6km W of Washington, Maine   Magnitude: 1.3</div>')[0];
+                popup_a6b877fe50544e0bb857239e6c0032e8.setContent(html_23ff585d3b684656847b2858b7811f78);
+            
+
+            circle_marker_9a10adede4ee4b759b3c0af49b71dd28.bindPopup(popup_a6b877fe50544e0bb857239e6c0032e8);
+
+            
+        
+    
+            var circle_marker_c047a2b345784f37aaa3892d0bd78c0a = L.circleMarker(
+                [41.4348,-71.1882],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_6086645318c54598950c96e922c08813 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad61c1db940b410dbff765a32a337185 = $('<div id="html_ad61c1db940b410dbff765a32a337185" style="width: 100.0%; height: 100.0%;">Date: 2018-06-13 02:56:38   Place: 12km ESE of Newport, Rhode Island   Magnitude: 1.3</div>')[0];
+                popup_6086645318c54598950c96e922c08813.setContent(html_ad61c1db940b410dbff765a32a337185);
+            
+
+            circle_marker_c047a2b345784f37aaa3892d0bd78c0a.bindPopup(popup_6086645318c54598950c96e922c08813);
+
+            
+        
+    
+            var circle_marker_b1f43bf204de414181c3197f37f19035 = L.circleMarker(
+                [46.7375,-70.3434],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_99383168dc284a1fb37a31d66bb3c9c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a6cd2b3253d4138883f76e4709c8158 = $('<div id="html_7a6cd2b3253d4138883f76e4709c8158" style="width: 100.0%; height: 100.0%;">Date: 2018-07-02 00:07:58   Place: 29km ENE of Bellechasse Regional County Municipality, Canada   Magnitude: 1.3</div>')[0];
+                popup_99383168dc284a1fb37a31d66bb3c9c9.setContent(html_7a6cd2b3253d4138883f76e4709c8158);
+            
+
+            circle_marker_b1f43bf204de414181c3197f37f19035.bindPopup(popup_99383168dc284a1fb37a31d66bb3c9c9);
+
+            
+        
+    
+            var circle_marker_ae9b6b0788144f0891804c7028b29ba3 = L.circleMarker(
+                [41.6945,-71.7539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_e0c17d4bc7c74f7fa523616260f6c487 = L.popup({maxWidth: '300'});
+
+            
+                var html_9a77e963f7764c1bac8f6864bce7cb8c = $('<div id="html_9a77e963f7764c1bac8f6864bce7cb8c" style="width: 100.0%; height: 100.0%;">Date: 2018-07-10 23:32:13   Place: 5km W of Coventry, Rhode Island   Magnitude: 1.3</div>')[0];
+                popup_e0c17d4bc7c74f7fa523616260f6c487.setContent(html_9a77e963f7764c1bac8f6864bce7cb8c);
+            
+
+            circle_marker_ae9b6b0788144f0891804c7028b29ba3.bindPopup(popup_e0c17d4bc7c74f7fa523616260f6c487);
+
+            
+        
+    
+            var circle_marker_744fa83678574f0e9d585a4a03278297 = L.circleMarker(
+                [41.3661667,-73.874],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_61472ee7fab84ea4832a0d4db42708e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_fea8976765994d139582f03101264622 = $('<div id="html_fea8976765994d139582f03101264622" style="width: 100.0%; height: 100.0%;">Date: 2018-02-07 08:39:47   Place: 5km NNW of Lake Mohegan, New York   Magnitude: 1.28</div>')[0];
+                popup_61472ee7fab84ea4832a0d4db42708e3.setContent(html_fea8976765994d139582f03101264622);
+            
+
+            circle_marker_744fa83678574f0e9d585a4a03278297.bindPopup(popup_61472ee7fab84ea4832a0d4db42708e3);
+
+            
+        
+    
+            var circle_marker_6509dfa6a48343c88054563cbbed06e7 = L.circleMarker(
+                [41.362,-73.8661667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_8be1a455f28c4232be39cf85e75f21b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_914fd38f14e44e5b98fbfbe8439dfbc7 = $('<div id="html_914fd38f14e44e5b98fbfbe8439dfbc7" style="width: 100.0%; height: 100.0%;">Date: 2018-02-07 06:15:43   Place: 5km NNW of Lake Mohegan, New York   Magnitude: 1.26</div>')[0];
+                popup_8be1a455f28c4232be39cf85e75f21b9.setContent(html_914fd38f14e44e5b98fbfbe8439dfbc7);
+            
+
+            circle_marker_6509dfa6a48343c88054563cbbed06e7.bindPopup(popup_8be1a455f28c4232be39cf85e75f21b9);
+
+            
+        
+    
+            var circle_marker_2937bdb03e9241abb2965b6002128d12 = L.circleMarker(
+                [44.1118,-69.459],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_0ac94b5ae0b34deeab776d10f5dc53e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a8c42be9dfb4261aca11fb6fa59a03c = $('<div id="html_0a8c42be9dfb4261aca11fb6fa59a03c" style="width: 100.0%; height: 100.0%;">Date: 2018-03-18 03:42:35   Place: 4km NNE of Nobleboro, Maine   Magnitude: 1.2</div>')[0];
+                popup_0ac94b5ae0b34deeab776d10f5dc53e2.setContent(html_0a8c42be9dfb4261aca11fb6fa59a03c);
+            
+
+            circle_marker_2937bdb03e9241abb2965b6002128d12.bindPopup(popup_0ac94b5ae0b34deeab776d10f5dc53e2);
+
+            
+        
+    
+            var circle_marker_39448716542340fe891b22ca6b5e1cd3 = L.circleMarker(
+                [47.7792,-70.0332],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_29664c6d505940768e0167d4bf8b4603 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c03bb9ff2ba4d6898d2d971d86f63e0 = $('<div id="html_4c03bb9ff2ba4d6898d2d971d86f63e0" style="width: 100.0%; height: 100.0%;">Date: 2018-05-20 00:55:19   Place: 16km NE of La Malbaie, Canada   Magnitude: 1.2</div>')[0];
+                popup_29664c6d505940768e0167d4bf8b4603.setContent(html_4c03bb9ff2ba4d6898d2d971d86f63e0);
+            
+
+            circle_marker_39448716542340fe891b22ca6b5e1cd3.bindPopup(popup_29664c6d505940768e0167d4bf8b4603);
+
+            
+        
+    
+            var circle_marker_97b56c95d426479fa0264121c086cb5e = L.circleMarker(
+                [45.1237,-65.9777],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_603b0834cbb147b3a47aa62a14e25a79 = L.popup({maxWidth: '300'});
+
+            
+                var html_5fdef901fa6549a293e1a29e7d8a3a3d = $('<div id="html_5fdef901fa6549a293e1a29e7d8a3a3d" style="width: 100.0%; height: 100.0%;">Date: 2018-06-07 02:51:26   Place: 18km SSE of Saint John, Canada   Magnitude: 1.2</div>')[0];
+                popup_603b0834cbb147b3a47aa62a14e25a79.setContent(html_5fdef901fa6549a293e1a29e7d8a3a3d);
+            
+
+            circle_marker_97b56c95d426479fa0264121c086cb5e.bindPopup(popup_603b0834cbb147b3a47aa62a14e25a79);
+
+            
+        
+    
+            var circle_marker_92266756767a4d1d8a1b2bcf3cf40b9f = L.circleMarker(
+                [44.746,-74.6155],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_77a73c7172594fbeae0bc22abf07ee16 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed8184da54a74d0cbfb9dd9988c475e0 = $('<div id="html_ed8184da54a74d0cbfb9dd9988c475e0" style="width: 100.0%; height: 100.0%;">Date: 2018-04-08 19:03:47   Place: 27km WSW of Malone, New York   Magnitude: 1.15</div>')[0];
+                popup_77a73c7172594fbeae0bc22abf07ee16.setContent(html_ed8184da54a74d0cbfb9dd9988c475e0);
+            
+
+            circle_marker_92266756767a4d1d8a1b2bcf3cf40b9f.bindPopup(popup_77a73c7172594fbeae0bc22abf07ee16);
+
+            
+        
+    
+            var circle_marker_265b1c23838b4428ba652b97d389265d = L.circleMarker(
+                [43.2963333,-77.308],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_5ea42669420746c58faec0da65826d53 = L.popup({maxWidth: '300'});
+
+            
+                var html_fd13995cb80f46e1ab9aad18c24db646 = $('<div id="html_fd13995cb80f46e1ab9aad18c24db646" style="width: 100.0%; height: 100.0%;">Date: 2018-06-12 10:07:43   Place: 8km NNW of Ontario, New York   Magnitude: 1.12</div>')[0];
+                popup_5ea42669420746c58faec0da65826d53.setContent(html_fd13995cb80f46e1ab9aad18c24db646);
+            
+
+            circle_marker_265b1c23838b4428ba652b97d389265d.bindPopup(popup_5ea42669420746c58faec0da65826d53);
+
+            
+        
+    
+            var circle_marker_fcb13f077bbd4e369ab626859e90a913 = L.circleMarker(
+                [45.0549,-69.3561],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_49bdfbb7b5b34aa38cd2d1070a78f056 = L.popup({maxWidth: '300'});
+
+            
+                var html_89b9b4a0e53147e18059e9d3b9cf590a = $('<div id="html_89b9b4a0e53147e18059e9d3b9cf590a" style="width: 100.0%; height: 100.0%;">Date: 2018-05-18 00:45:16   Place: 6km WNW of Dexter, Maine   Magnitude: 1.1</div>')[0];
+                popup_49bdfbb7b5b34aa38cd2d1070a78f056.setContent(html_89b9b4a0e53147e18059e9d3b9cf590a);
+            
+
+            circle_marker_fcb13f077bbd4e369ab626859e90a913.bindPopup(popup_49bdfbb7b5b34aa38cd2d1070a78f056);
+
+            
+        
+    
+            var circle_marker_7dbe6f5a59654314b9eebf8661bb2d5a = L.circleMarker(
+                [45.1435,-66.7395],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c5d08d041c934d418989178f4d887f51 = L.popup({maxWidth: '300'});
+
+            
+                var html_69d5651dc9034bfcad8c4f781581302b = $('<div id="html_69d5651dc9034bfcad8c4f781581302b" style="width: 100.0%; height: 100.0%;">Date: 2018-05-27 01:59:24   Place: 26km ENE of Saint Andrews, Canada   Magnitude: 1.1</div>')[0];
+                popup_c5d08d041c934d418989178f4d887f51.setContent(html_69d5651dc9034bfcad8c4f781581302b);
+            
+
+            circle_marker_7dbe6f5a59654314b9eebf8661bb2d5a.bindPopup(popup_c5d08d041c934d418989178f4d887f51);
+
+            
+        
+    
+            var circle_marker_4d23af6f44524b82a262ca9d855f0137 = L.circleMarker(
+                [43.2732,-71.6762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_dd531b0ec23a4fb7b26e88688aeb76af = L.popup({maxWidth: '300'});
+
+            
+                var html_7d99e6972dbc4ecdb115d4418911c4e6 = $('<div id="html_7d99e6972dbc4ecdb115d4418911c4e6" style="width: 100.0%; height: 100.0%;">Date: 2018-06-27 02:37:25   Place: 6km SW of Boscawen, New Hampshire   Magnitude: 1.1</div>')[0];
+                popup_dd531b0ec23a4fb7b26e88688aeb76af.setContent(html_7d99e6972dbc4ecdb115d4418911c4e6);
+            
+
+            circle_marker_4d23af6f44524b82a262ca9d855f0137.bindPopup(popup_dd531b0ec23a4fb7b26e88688aeb76af);
+
+            
+        
+    
+            var circle_marker_00f5d07a87ee43939af497fc43c9d369 = L.circleMarker(
+                [41.4726,-72.6485],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_47b047a881d9429e9d384c98ce7f12be = L.popup({maxWidth: '300'});
+
+            
+                var html_3a3c07e52b474c48a5c467bdc21de8d8 = $('<div id="html_3a3c07e52b474c48a5c467bdc21de8d8" style="width: 100.0%; height: 100.0%;">Date: 2018-07-14 02:53:22   Place: 2km ESE of Durham, Connecticut   Magnitude: 1.1</div>')[0];
+                popup_47b047a881d9429e9d384c98ce7f12be.setContent(html_3a3c07e52b474c48a5c467bdc21de8d8);
+            
+
+            circle_marker_00f5d07a87ee43939af497fc43c9d369.bindPopup(popup_47b047a881d9429e9d384c98ce7f12be);
+
+            
+        
+    
+            var circle_marker_aca4f0ff93fc4ec88066aa0211afca36 = L.circleMarker(
+                [43.8099,-71.365],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_25e937502f5f4095adae410c89bb3789 = L.popup({maxWidth: '300'});
+
+            
+                var html_886b4881d5364ebbb8423e9035b73d18 = $('<div id="html_886b4881d5364ebbb8423e9035b73d18" style="width: 100.0%; height: 100.0%;">Date: 2018-02-13 22:05:03   Place: 4km ENE of Sandwich, New Hampshire   Magnitude: 1</div>')[0];
+                popup_25e937502f5f4095adae410c89bb3789.setContent(html_886b4881d5364ebbb8423e9035b73d18);
+            
+
+            circle_marker_aca4f0ff93fc4ec88066aa0211afca36.bindPopup(popup_25e937502f5f4095adae410c89bb3789);
+
+            
+        
+    
+            var circle_marker_8636c782d7884607823902784de4e138 = L.circleMarker(
+                [45.0102,-67.0527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d41e5e3219a349938ae98ffdefbb59e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f485096487bd45618e7c807f71e7fbad = $('<div id="html_f485096487bd45618e7c807f71e7fbad" style="width: 100.0%; height: 100.0%;">Date: 2018-04-20 04:23:33   Place: 8km S of Saint Andrews, Canada   Magnitude: 1</div>')[0];
+                popup_d41e5e3219a349938ae98ffdefbb59e2.setContent(html_f485096487bd45618e7c807f71e7fbad);
+            
+
+            circle_marker_8636c782d7884607823902784de4e138.bindPopup(popup_d41e5e3219a349938ae98ffdefbb59e2);
+
+            
+        
+    
+            var circle_marker_f9966a8ae5db4dd69a5e8360f2238f0f = L.circleMarker(
+                [46.9921,-66.6728],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_cc7d01ce41004e6d98a0942f43f5f7b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c6aba5c5a624c8aade24dbb2377b016 = $('<div id="html_6c6aba5c5a624c8aade24dbb2377b016" style="width: 100.0%; height: 100.0%;">Date: 2018-05-20 00:56:08   Place: 88km E of Limestone, Maine   Magnitude: 1</div>')[0];
+                popup_cc7d01ce41004e6d98a0942f43f5f7b0.setContent(html_6c6aba5c5a624c8aade24dbb2377b016);
+            
+
+            circle_marker_f9966a8ae5db4dd69a5e8360f2238f0f.bindPopup(popup_cc7d01ce41004e6d98a0942f43f5f7b0);
+
+            
+        
+    
+            var circle_marker_8a92b932970a4039a99b213d3a20883e = L.circleMarker(
+                [44.6639,-68.5405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_d1443fe6fda54ad48a78c1fb48bdd651 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc2aef571b514c8cb34d1c4704cba1a7 = $('<div id="html_cc2aef571b514c8cb34d1c4704cba1a7" style="width: 100.0%; height: 100.0%;">Date: 2018-06-04 02:35:03   Place: 10km ESE of Dedham, Maine   Magnitude: 1</div>')[0];
+                popup_d1443fe6fda54ad48a78c1fb48bdd651.setContent(html_cc2aef571b514c8cb34d1c4704cba1a7);
+            
+
+            circle_marker_8a92b932970a4039a99b213d3a20883e.bindPopup(popup_d1443fe6fda54ad48a78c1fb48bdd651);
+
+            
+        
+    
+            var circle_marker_c8bcc8c8f1494991946489399d0574fd = L.circleMarker(
+                [44.6286667,-74.9595],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_3ea1c6264970425c8fa9e389cce6a7d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_c677702af93f46a7a7815b77139afe37 = $('<div id="html_c677702af93f46a7a7815b77139afe37" style="width: 100.0%; height: 100.0%;">Date: 2018-05-07 02:49:03   Place: 2km NNE of Hannawa Falls, New York   Magnitude: 0.98</div>')[0];
+                popup_3ea1c6264970425c8fa9e389cce6a7d2.setContent(html_c677702af93f46a7a7815b77139afe37);
+            
+
+            circle_marker_c8bcc8c8f1494991946489399d0574fd.bindPopup(popup_3ea1c6264970425c8fa9e389cce6a7d2);
+
+            
+        
+    
+            var circle_marker_9ef1d2ade0244219a357cd008abb9470 = L.circleMarker(
+                [40.3043333,-75.8966667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_cf3c24cd47be465aaa09b565ec508a2d = L.popup({maxWidth: '300'});
+
+            
+                var html_932d286c81c44bca83c06534f426f7eb = $('<div id="html_932d286c81c44bca83c06534f426f7eb" style="width: 100.0%; height: 100.0%;">Date: 2018-01-03 11:20:19   Place: 2km SW of Reiffton, Pennsylvania   Magnitude: 0.93</div>')[0];
+                popup_cf3c24cd47be465aaa09b565ec508a2d.setContent(html_932d286c81c44bca83c06534f426f7eb);
+            
+
+            circle_marker_9ef1d2ade0244219a357cd008abb9470.bindPopup(popup_cf3c24cd47be465aaa09b565ec508a2d);
+
+            
+        
+    
+            var circle_marker_d328fe723dcb4998a562e0d8370c5e8b = L.circleMarker(
+                [44.7188,-70.7405],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c66b92e10a114138a72978bd28d180ab = L.popup({maxWidth: '300'});
+
+            
+                var html_0e02ef00ab3349afa7907767e5eeb98e = $('<div id="html_0e02ef00ab3349afa7907767e5eeb98e" style="width: 100.0%; height: 100.0%;">Date: 2018-07-02 03:19:11   Place: 23km NW of Rumford, Maine   Magnitude: 0.9</div>')[0];
+                popup_c66b92e10a114138a72978bd28d180ab.setContent(html_0e02ef00ab3349afa7907767e5eeb98e);
+            
+
+            circle_marker_d328fe723dcb4998a562e0d8370c5e8b.bindPopup(popup_c66b92e10a114138a72978bd28d180ab);
+
+            
+        
+    
+            var circle_marker_c9bf86ac54144a648114ef11c38bac1d = L.circleMarker(
+                [44.6405,-74.9686667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c611ea5816da496c81d9f75304e717b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3c19adababbd433286133545380d1137 = $('<div id="html_3c19adababbd433286133545380d1137" style="width: 100.0%; height: 100.0%;">Date: 2018-06-02 04:10:21   Place: 3km SSE of Potsdam, New York   Magnitude: 0.85</div>')[0];
+                popup_c611ea5816da496c81d9f75304e717b7.setContent(html_3c19adababbd433286133545380d1137);
+            
+
+            circle_marker_c9bf86ac54144a648114ef11c38bac1d.bindPopup(popup_c611ea5816da496c81d9f75304e717b7);
+
+            
+        
+    
+            var circle_marker_f1657cd26eef4a528e593ab811cb531a = L.circleMarker(
+                [40.9543333,-73.7655],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_247403b4fece4db0a2cb58e8f7cd3e0f = L.popup({maxWidth: '300'});
+
+            
+                var html_207c9b74294a431d84163cb6c85fb3e5 = $('<div id="html_207c9b74294a431d84163cb6c85fb3e5" style="width: 100.0%; height: 100.0%;">Date: 2018-05-31 06:42:49   Place: 2km WNW of Mamaroneck, New York   Magnitude: 0.82</div>')[0];
+                popup_247403b4fece4db0a2cb58e8f7cd3e0f.setContent(html_207c9b74294a431d84163cb6c85fb3e5);
+            
+
+            circle_marker_f1657cd26eef4a528e593ab811cb531a.bindPopup(popup_247403b4fece4db0a2cb58e8f7cd3e0f);
+
+            
+        
+    
+            var circle_marker_605e4953e4244018a37866c9b07fd4a3 = L.circleMarker(
+                [45.6384,-69.2105],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_f2112c26133048ed9f2be112d2e3a194 = L.popup({maxWidth: '300'});
+
+            
+                var html_846e9b6ca1204932836fa208c2905c04 = $('<div id="html_846e9b6ca1204932836fa208c2905c04" style="width: 100.0%; height: 100.0%;">Date: 2018-04-27 01:43:25   Place: 35km NE of Greenville, Maine   Magnitude: 0.8</div>')[0];
+                popup_f2112c26133048ed9f2be112d2e3a194.setContent(html_846e9b6ca1204932836fa208c2905c04);
+            
+
+            circle_marker_605e4953e4244018a37866c9b07fd4a3.bindPopup(popup_f2112c26133048ed9f2be112d2e3a194);
+
+            
+        
+    
+            var circle_marker_68df23b6a0ab46e1b6e43c6be45fc24b = L.circleMarker(
+                [44.7618333,-74.6135],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_4dffbec639ca47dcb3322b150dba7875 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b5daf87771d44a3b634676a1af7f898 = $('<div id="html_6b5daf87771d44a3b634676a1af7f898" style="width: 100.0%; height: 100.0%;">Date: 2018-04-05 06:22:36   Place: 26km WSW of Malone, New York   Magnitude: 0.7</div>')[0];
+                popup_4dffbec639ca47dcb3322b150dba7875.setContent(html_6b5daf87771d44a3b634676a1af7f898);
+            
+
+            circle_marker_68df23b6a0ab46e1b6e43c6be45fc24b.bindPopup(popup_4dffbec639ca47dcb3322b150dba7875);
+
+            
+        
+    
+            var circle_marker_d4a98c0df5d64480af95f6876759fd91 = L.circleMarker(
+                [44.6215,-74.9698333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_706affa1d7354f22b78281398b298da6 = L.popup({maxWidth: '300'});
+
+            
+                var html_0abc3d433d3f41b7996fc8283d32ba52 = $('<div id="html_0abc3d433d3f41b7996fc8283d32ba52" style="width: 100.0%; height: 100.0%;">Date: 2018-05-27 05:55:40   Place: 1km N of Hannawa Falls, New York   Magnitude: 0.58</div>')[0];
+                popup_706affa1d7354f22b78281398b298da6.setContent(html_0abc3d433d3f41b7996fc8283d32ba52);
+            
+
+            circle_marker_d4a98c0df5d64480af95f6876759fd91.bindPopup(popup_706affa1d7354f22b78281398b298da6);
+
+            
+        
+    
+            var circle_marker_698ba214dfbb47be92abfaa1fc7aa65b = L.circleMarker(
+                [42.7688333,-78.9131667],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_76015d1538cc4593988c909b5953dcc5 = L.popup({maxWidth: '300'});
+
+            
+                var html_b00ffefc968f4e578933cce36b1ea336 = $('<div id="html_b00ffefc968f4e578933cce36b1ea336" style="width: 100.0%; height: 100.0%;">Date: 2018-06-25 08:37:32   Place: 2km NNW of Wanakah, New York   Magnitude: 0.57</div>')[0];
+                popup_76015d1538cc4593988c909b5953dcc5.setContent(html_b00ffefc968f4e578933cce36b1ea336);
+            
+
+            circle_marker_698ba214dfbb47be92abfaa1fc7aa65b.bindPopup(popup_76015d1538cc4593988c909b5953dcc5);
+
+            
+        
+    
+            var circle_marker_5f4890c8a7ee4e60b8fea17dbc3fac71 = L.circleMarker(
+                [44.6253333,-74.5573333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "grey",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(feature_group_1f02883651d64d61846400f8f09a03fc);
+            
+    
+            var popup_c8044d38f1a540a2967722e14fe74f63 = L.popup({maxWidth: '300'});
+
+            
+                var html_16a3b6c31e974e3f9169753954cba7aa = $('<div id="html_16a3b6c31e974e3f9169753954cba7aa" style="width: 100.0%; height: 100.0%;">Date: 2018-01-18 05:11:40   Place: 32km SW of Malone, New York   Magnitude: 0.38</div>')[0];
+                popup_c8044d38f1a540a2967722e14fe74f63.setContent(html_16a3b6c31e974e3f9169753954cba7aa);
+            
+
+            circle_marker_5f4890c8a7ee4e60b8fea17dbc3fac71.bindPopup(popup_c8044d38f1a540a2967722e14fe74f63);
+
+            
+        
+</script>
