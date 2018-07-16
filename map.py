@@ -6,7 +6,7 @@ import pdb
 
 
 earthquakes = requests.get("https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2018-01-01&minlatitude=22&maxlatitude=50&minlongitude=-83&maxlongitude=-63&orderby=magnitude").json()['features']
-map = folium.Map(location=[37.50, -73], zoom_start=5, prefer_canvas=True, tiles="Mapbox Bright")
+map = folium.Map(location=[37.50, -73], zoom_start=5, max_zoom=10, min_zoom=4, prefer_canvas=True, tiles="Mapbox Bright")
 fg = folium.FeatureGroup(name="vacation")
 
 for earthquake in earthquakes:
